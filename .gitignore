@@ -25,3 +25,6 @@ go.work.sum
 .env
 
 .idea
+
+# Office temp files
+cmd/s3_analyze_2024/.~lock.*

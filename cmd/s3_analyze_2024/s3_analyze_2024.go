@@ -49,13 +49,10 @@ func main() {
 		}
 		allRankDecks = append(allRankDecks, rankedDecks...)
 		monthsRankDecks[monthStr] = ygo.SortMapByValueDesc(archetypesCount)
-		if len(monthsRankDecks[monthStr]) > 10 {
-			monthsRankDecks[monthStr] = monthsRankDecks[monthStr][:10]
-		}
 		log.Printf("month %v: len(decks) %v, len(rankedDecks) %v", monthStr, len(decks), len(rankedDecks))
 	}
 
-	outputFilePath := filepath.Join(projectRoot, "cmd/s3_analyze_2024/ranked_decks_2024_12.csv")
+	outputFilePath := filepath.Join(projectRoot, "cmd/s3_analyze_2024/ranked_decks_2024.csv")
 	file, err := os.Create(outputFilePath)
 	if err != nil {
 		log.Fatalf("error os.Create: %v", err)
