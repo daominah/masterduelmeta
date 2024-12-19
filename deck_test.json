@@ -1,0 +1,2659 @@
+[
+	{
+		"_id": "676306e7351b92a9c48b180c",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-12-18T17:31:10.675Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53127",
+					"name": "Planet Pathfinder"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d9b",
+					"name": "Kashtira Riseheart"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d86",
+					"name": "Dimension Shifter"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9597",
+					"name": "Kashtira Fenrir"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9598",
+					"name": "Kashtira Ogre"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa959b",
+					"name": "Kashtira Unicorn"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "632915ccd4dd6c3fea9be861",
+					"name": "Scareclaw Kashtira"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5259a",
+					"name": "Harpie's Feather Duster"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314f",
+					"name": "Pot of Extravagance"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53bbe",
+					"name": "Triple Tactics Talent"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d9a",
+					"name": "Kashtiratheosis"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "633eca231a782883d7a1af70",
+					"name": "Triple Tactics Thrust"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "65c2fc7233cf03245e784198",
+					"name": "Spell Card \"Soul Exchange\""
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "632915ccd4dd6c3fea9be85a",
+					"name": "Pressured Planet Wraitsoth"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9596",
+					"name": "Kashtira Birth"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d8c",
+					"name": "Dimensional Barrier"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9599",
+					"name": "Kashtira Preparations"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5163b",
+					"name": "Baronne de Fleur"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd0b",
+					"name": "Swordsoul Supreme Sovereign - Chengying"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52e82",
+					"name": "Number 11: Big Eye"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51be3",
+					"name": "Dark Armed, the Dragon of Annihilation"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa959a",
+					"name": "Kashtira Shangri-Ira"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d96",
+					"name": "Kashtira Arise-Heart"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51dc4",
+					"name": "Divine Arsenal AA-ZEUS - Sky Thunder"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "64b7d9f804c2630a5ed10d3f",
+					"name": "Super Starslayer TY-PHON - Sky Crisis"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "64b28f88180d4d8dd0483996",
+					"name": "S:P Little Knight"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/master-i/december-2024/kashtira/daominah/rs3_M/",
+		"deckType": {
+			"name": "Kashtira",
+			"tournamentPower": 1.5
+		},
+		"rankedType": {
+			"name": "Master I",
+			"shortName": "Master I",
+			"icon": "/mdm_img/content/logos/master-1.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": true,
+			"includeInStats": true
+		},
+		"engines": [],
+		"srPrice": 360,
+		"urPrice": 1080,
+		"linkedArticle": null,
+		"hasNotes": true
+	},
+	{
+		"_id": "6755b79aac604a55a066c9e5",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-12-08T15:13:23.134Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f3e",
+					"name": "Effect Veiler"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a5237e",
+					"name": "Ghost Ogre & Snow Rabbit"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a52373",
+					"name": "Ghost Belle & Haunted Mansion"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a5237c",
+					"name": "Ghost Mourner & Moonlit Chill"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a520c5",
+					"name": "Fairy Tail - Luna"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "64d60ec99d16825948c044e2",
+					"name": "Centur-Ion Primera"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "64d60eb09d16825948c042e0",
+					"name": "Centur-Ion Trudea"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568c",
+					"name": "Bystial Druiswurm"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568d",
+					"name": "Bystial Magnamhut"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568e",
+					"name": "Bystial Saronir"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63382fb93cc79c1273713311",
+					"name": "Bystial Baldrake"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62e034bf5f0fd2a1fe376de4",
+					"name": "The Bystial Lubellion"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "64d60e1c9d16825948c0343e",
+					"name": "Stand Up Centur-Ion!"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62e0316e5f0fd2a1fe373779",
+					"name": "Branded Regained"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 3
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e44",
+					"name": "Draco Berserker of the Tenyi"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5163b",
+					"name": "Baronne de Fleur"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63b580b1ba9f3a0068c62057",
+					"name": "Chaos Angel"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "63ac6c2d13ec4bb110df5b7a",
+					"name": "Bystial Dis Pater"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b512",
+					"name": "Psychic End Punisher"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "64d60e589d16825948c039a5",
+					"name": "Centur-Ion Legatia"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "64b7d9f804c2630a5ed10d3f",
+					"name": "Super Starslayer TY-PHON - Sky Crisis"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5347e",
+					"name": "Salamangreat Almiraj"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51597",
+					"name": "Artemis, the Magistus Moon Maiden"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52636",
+					"name": "Hieratic Seal of the Heavenly Spheres"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b475",
+					"name": "Dharc the Dark Charmer, Gloomy"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "64b28f88180d4d8dd0483996",
+					"name": "S:P Little Knight"
+				},
+				"amount": 2
+			}
+		],
+		"side": [],
+		"url": "/master-v/december-2024/bystial/daominah/FOeI4/",
+		"deckType": {
+			"name": "Bystial"
+		},
+		"rankedType": {
+			"name": "Master V",
+			"shortName": "Master V",
+			"icon": "/mdm_img/content/logos/master-5.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": false,
+			"includeInStats": true
+		},
+		"engines": [
+			{
+				"_id": "6690321ce1a322d81372a05b",
+				"name": "Centur-Ion"
+			}
+		],
+		"srPrice": 420,
+		"urPrice": 1200,
+		"linkedArticle": null,
+		"hasNotes": true
+	},
+	{
+		"_id": "6744ca383eff3034bbcc6bd0",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-11-25T19:04:16.610Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "623927b34c5dfd6709ea48ac",
+					"name": "Labrynth Stovie Torbie"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a5237e",
+					"name": "Ghost Ogre & Snow Rabbit"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a52373",
+					"name": "Ghost Belle & Haunted Mansion"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a5237c",
+					"name": "Ghost Mourner & Moonlit Chill"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "623927b34c5dfd6709ea48a9",
+					"name": "Arianna the Labrynth Servant"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "64b5437cf6796fe548599082",
+					"name": "Arias the Labrynth Butler"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "623927b34c5dfd6709ea48a8",
+					"name": "Lovely Labrynth of the Silver Castle"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa959c",
+					"name": "Lady Labrynth of the Silver Castle"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314f",
+					"name": "Pot of Extravagance"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "623927b34c5dfd6709ea48a7",
+					"name": "Labrynth Labyrinth"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d8c",
+					"name": "Dimensional Barrier"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53b5a",
+					"name": "Trap Trick"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6239282b92d4b8933d96d8db",
+					"name": "Welcome Labrynth"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "63440d3bd6a5dcbca7a237d9",
+					"name": "Big Welcome Labrynth"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "63c4de0c497611dedaa7e679",
+					"name": "Destructive Daruma Karma Cannon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53691",
+					"name": "Solemn Judgment"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "63b580b1ba9f3a0068c62057",
+					"name": "Chaos Angel"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "64b7d9f804c2630a5ed10d3f",
+					"name": "Super Starslayer TY-PHON - Sky Crisis"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5347e",
+					"name": "Salamangreat Almiraj"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52883",
+					"name": "Knightmare Phoenix"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b475",
+					"name": "Dharc the Dark Charmer, Gloomy"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62e02d945f0fd2a1fe36ffc0",
+					"name": "Muckraker From the Underworld"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "64b28f88180d4d8dd0483996",
+					"name": "S:P Little Knight"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52884",
+					"name": "Knightmare Unicorn"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53c69",
+					"name": "Underworld Goddess of the Closed World"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/master-i/november-2024/labrynth/daominah/yrBDB/",
+		"deckType": {
+			"name": "Labrynth",
+			"tournamentPower": 5
+		},
+		"rankedType": {
+			"name": "Master I",
+			"shortName": "Master I",
+			"icon": "/mdm_img/content/logos/master-1.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": true,
+			"includeInStats": true
+		},
+		"engines": [],
+		"srPrice": 450,
+		"urPrice": 1140,
+		"linkedArticle": null,
+		"hasNotes": true
+	},
+	{
+		"_id": "673b7a959e6f4c11cefea831",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-11-18T17:30:23.837Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5179e",
+					"name": "Blue-Eyes White Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a76",
+					"name": "The White Stone of Legend"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53478",
+					"name": "Sage with Eyes of Blue"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a75",
+					"name": "The White Stone of Ancients"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b53f",
+					"name": "Dictator of D."
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5178c",
+					"name": "Blue-Eyes Alternative White Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e63",
+					"name": "Dragon Spirit of White"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b45c",
+					"name": "Blue-Eyes Jet Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5259a",
+					"name": "Harpie's Feather Duster"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a525c4",
+					"name": "Heavy Storm"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53b3d",
+					"name": "Trade-In"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e62",
+					"name": "Dragon Shrine"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a1b",
+					"name": "The Melody of Awakening Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53389",
+					"name": "Return of the Dragon Lords"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314c",
+					"name": "Pot of Desires"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a516db",
+					"name": "Bingo Machine, Go!!!"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53bbe",
+					"name": "Triple Tactics Talent"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "633eca231a782883d7a1af70",
+					"name": "Triple Tactics Thrust"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [],
+		"side": [],
+		"url": "/extra-zero-festival/november-2024/blue-eyes/daominah/_3PEo/",
+		"deckType": {
+			"name": "Blue-Eyes"
+		},
+		"rankedType": {
+			"name": "Extra Zero Festival",
+			"shortName": "Extra Zero",
+			"icon": "/mdm_img/content/logos/ex-zero.webp",
+			"statsWeight": 0,
+			"event": true,
+			"activeEvent": false,
+			"includeInStats": false
+		},
+		"engines": [],
+		"srPrice": 30,
+		"urPrice": 210,
+		"linkedArticle": null
+	},
+	{
+		"_id": "6713dca35895935df8144103",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-10-19T16:14:27.121Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5179e",
+					"name": "Blue-Eyes White Dragon"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a76",
+					"name": "The White Stone of Legend"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a75",
+					"name": "The White Stone of Ancients"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a513e2",
+					"name": "Aleister the Invoker"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5178c",
+					"name": "Blue-Eyes Alternative White Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b45c",
+					"name": "Blue-Eyes Jet Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e62",
+					"name": "Dragon Shrine"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a1b",
+					"name": "The Melody of Awakening Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52769",
+					"name": "Invocation"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a516db",
+					"name": "Bingo Machine, Go!!!"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52a91",
+					"name": "Magical Meltdown"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53869",
+					"name": "Super Polymerization"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53691",
+					"name": "Solemn Judgment"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53694",
+					"name": "Solemn Warning"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53693",
+					"name": "Solemn Strike"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6265b71691ab2861a4444360",
+					"name": "Draco-Utopian Aura"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6533c5b2bf2fc97c659821b4",
+					"name": "Iron Thunder"
+				},
+				"amount": 3
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276b",
+					"name": "Invoked Caliga"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52d3d",
+					"name": "Mudragon of the Swamp"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52771",
+					"name": "Invoked Raidjin"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276c",
+					"name": "Invoked Cocytus"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62fc105bc9c52ba40dd3d543",
+					"name": "Garura, Wings of Resonant Life"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52770",
+					"name": "Invoked Purgatrio"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f14",
+					"name": "Earth Golem @Ignister"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276e",
+					"name": "Invoked Magellanica"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276a",
+					"name": "Invoked Augoeides"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b45d",
+					"name": "Blue-Eyes Tyrant Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276f",
+					"name": "Invoked Mechaba"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276d",
+					"name": "Invoked Elysium"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/duel-triangle-fusion-synchro-link/october-2024/blue-eyes/daominah/Igte9/",
+		"deckType": {
+			"name": "Blue-Eyes"
+		},
+		"rankedType": {
+			"name": "Duel Triangle Fusion/Synchro/Link",
+			"shortName": "Duel Triangle Fusion/Synchro/Link",
+			"icon": "/mdm_img/content/events/duel-triangle2.webp",
+			"statsWeight": 0,
+			"event": true,
+			"activeEvent": false,
+			"includeInStats": false
+		},
+		"engines": [
+			{
+				"_id": "627d284578fb7150471f883f",
+				"name": "Invoked"
+			}
+		],
+		"srPrice": 330,
+		"urPrice": 390,
+		"linkedArticle": null,
+		"hasNotes": true
+	},
+	{
+		"_id": "66fab649ed45c86cfbe21885",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-09-30T14:30:51.866Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f3e",
+					"name": "Effect Veiler"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5398e",
+					"name": "Tenyi Spirit - Adhara"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a5237e",
+					"name": "Ghost Ogre & Snow Rabbit"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd1a",
+					"name": "Incredible Ecclesia, the Virtuous"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd59",
+					"name": "Swordsoul of Mo Ye"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd7d",
+					"name": "Swordsoul of Taia"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd49",
+					"name": "Swordsoul Strategist Longyuan"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568c",
+					"name": "Bystial Druiswurm"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568d",
+					"name": "Bystial Magnamhut"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63382fb93cc79c1273713311",
+					"name": "Bystial Baldrake"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53994",
+					"name": "Tenyi Spirit - Vishuda"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5398f",
+					"name": "Tenyi Spirit - Ashuna"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51548",
+					"name": "Archnemeses Protos"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314c",
+					"name": "Pot of Desires"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd81",
+					"name": "Swordsoul Emergence"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51899",
+					"name": "Called by the Grave"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd7c",
+					"name": "Swordsoul Blackout"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f24",
+					"name": "Yazi, Evil of the Yang Zing"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51689",
+					"name": "Baxia, Brightness of the Yang Zing"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e44",
+					"name": "Draco Berserker of the Tenyi"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd0c",
+					"name": "Swordsoul Grandmaster - Chixiao"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5163b",
+					"name": "Baronne de Fleur"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd0b",
+					"name": "Swordsoul Supreme Sovereign - Chengying"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b537",
+					"name": "Swordsoul Sinister Sovereign - Qixing Longyuan"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "64b7d9f804c2630a5ed10d3f",
+					"name": "Super Starslayer TY-PHON - Sky Crisis"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52cec",
+					"name": "Monk of the Tenyi"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5357e",
+					"name": "Shaman of the Tenyi"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b475",
+					"name": "Dharc the Dark Charmer, Gloomy"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53543",
+					"name": "Selene, Queen of the Master Magicians"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/master-i/september-2024/swordsoul-tenyi/daominah/3ADQG/",
+		"deckType": {
+			"name": "Swordsoul Tenyi"
+		},
+		"rankedType": {
+			"name": "Master I",
+			"shortName": "Master I",
+			"icon": "/mdm_img/content/logos/master-1.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": true,
+			"includeInStats": true
+		},
+		"engines": [
+			{
+				"_id": "67157e700cb72f2a2b44a395",
+				"name": "Protos"
+			}
+		],
+		"srPrice": 270,
+		"urPrice": 660,
+		"linkedArticle": null,
+		"hasNotes": true,
+		"hasReplays": true
+	},
+	{
+		"_id": "66f1c5473c5c719bc9cce6e7",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-09-23T19:43:25.151Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f3e",
+					"name": "Effect Veiler"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60e5055607c7fa3be995e3d6",
+					"name": "Astral Kuriboh"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53634",
+					"name": "Skull Meister"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f61",
+					"name": "ZW - Unicorn Spear"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51516",
+					"name": "Aratama"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f51",
+					"name": "ZS - Armed Sage"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f52",
+					"name": "ZS - Ascended Sage"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60e5055607c7fa3be995e40b",
+					"name": "Astraltopia"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63c0ce1cbf9f8677d0aba772",
+					"name": "Sakitama"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "647b307586b78aa5e8272986",
+					"name": "Photon Delta Wing"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f5b",
+					"name": "ZW - Pegasus Twin Saber"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53344",
+					"name": "Reinforcement of the Army"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f86",
+					"name": "Zexal Construction"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52694",
+					"name": "Hyper Rank-Up-Magic Utopiforce"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51899",
+					"name": "Called by the Grave"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51a68",
+					"name": "Crossout Designator"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 3
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52e79",
+					"name": "Number 100: Numeron Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52ea2",
+					"name": "Number 39: Utopia"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52f0b",
+					"name": "Number S39: Utopia Prime"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52eaa",
+					"name": "Number 41: Bagooska the Terribly Tired Tapir"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3ada0e24f2d54a53f54",
+					"name": "ZS - Utopic Sage"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52f0c",
+					"name": "Number S39: Utopia the Lightning"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52959",
+					"name": "Ultimate Leo Utopia Ray"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52ea0",
+					"name": "Number 38: Hope Harbinger Dragon Titanic Galaxy"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52ee8",
+					"name": "Number 97: Draglubion"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51dc4",
+					"name": "Divine Arsenal AA-ZEUS - Sky Thunder"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52eea",
+					"name": "Number 99: Utopia Dragonar"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "64b7d9f804c2630a5ed10d3f",
+					"name": "Super Starslayer TY-PHON - Sky Crisis"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/duelist-cup-dlv.-max/september-2024/utopia/daominah/ZMTk-/",
+		"deckType": {
+			"name": "Utopia"
+		},
+		"rankedType": {
+			"name": "Duelist Cup DLv. Max",
+			"shortName": "DC DLv. Max",
+			"icon": "/mdm_img/content/logos/duelist-cup.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": true,
+			"includeInStats": true
+		},
+		"engines": [],
+		"srPrice": 300,
+		"urPrice": 780,
+		"linkedArticle": null
+	},
+	{
+		"_id": "668996f220534406a036825a",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-07-06T19:11:25.906Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52fd5",
+					"name": "PSY-Frame Driver"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52fdc",
+					"name": "PSY-Framegear Gamma"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51a89",
+					"name": "Crystal Beast Emerald Tortoise"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f3041f",
+					"name": "Tearlaments Havnis"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a520c9",
+					"name": "Fairy Tail - Snow"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b4de",
+					"name": "Supreme Sea Mare"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f30424",
+					"name": "Tearlaments Reinoheart"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f30426",
+					"name": "Tearlaments Scheiren"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9595",
+					"name": "Keldo the Sacred Protector"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62e02d945f0fd2a1fe36ffb8",
+					"name": "Mudora the Sword Oracle"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d46",
+					"name": "Destrudo the Lost Dragon's Frisson"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9597",
+					"name": "Kashtira Fenrir"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "632919edd4dd6c3fea9c1823",
+					"name": "Tearlaments Kashtira"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6486fd6ea1163a9fe9206191",
+					"name": "Hapi, Guidance of Horus"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6486fd46a1163a9fe9205edb",
+					"name": "Imsety, Glory of Horus"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53344",
+					"name": "Reinforcement of the Army"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a521e0",
+					"name": "Foolish Burial Goods"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e69f3ecc89b0e4f3022c",
+					"name": "Primeval Planet Perlereino"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "632915ccd4dd6c3fea9be85a",
+					"name": "Pressured Planet Wraitsoth"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6502d05c57011f848e852945",
+					"name": "Walls of the Imperial Tomb"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62e034bf5f0fd2a1fe376de2",
+					"name": "Tearlaments Scream"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "6486fd91a1163a9fe9206505",
+					"name": "King's Sarcophagus"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53869",
+					"name": "Super Polymerization"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51899",
+					"name": "Called by the Grave"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "62e034bf5f0fd2a1fe376de0",
+					"name": "Tearlaments Heartbeat"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "632919edd4dd6c3fea9c1829",
+					"name": "Trivikarma"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6220bc60e5946838f0890c2c",
+					"name": "Rainbow Bridge of Salvation"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f30425",
+					"name": "Tearlaments Sulliek"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f3041e",
+					"name": "Tearlaments Cryme"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52d3d",
+					"name": "Mudragon of the Swamp"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f30421",
+					"name": "Tearlaments Kitkallos"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62fc105bc9c52ba40dd3d543",
+					"name": "Garura, Wings of Resonant Life"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f14",
+					"name": "Earth Golem @Ignister"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62e034bf5f0fd2a1fe376de1",
+					"name": "Tearlaments Rulkallos"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f30420",
+					"name": "Tearlaments Kaleido-Heart"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5163b",
+					"name": "Baronne de Fleur"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b512",
+					"name": "Psychic End Punisher"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52ec0",
+					"name": "Number 60: Dugares the Timeless"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53ad3",
+					"name": "Time Thief Redoer"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6265e6c83ecc89b0e4f3042f",
+					"name": "The Zombie Vampire"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51dc4",
+					"name": "Divine Arsenal AA-ZEUS - Sky Thunder"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5269c",
+					"name": "I:P Masquerena"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51a66",
+					"name": "Cross-Sheep"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "64b28f88180d4d8dd0483996",
+					"name": "S:P Little Knight"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/master-i/july-2024/tearlaments/daominah/gijrM/",
+		"deckType": {
+			"name": "Tearlaments",
+			"tournamentPower": 1
+		},
+		"rankedType": {
+			"name": "Master I",
+			"shortName": "Master I",
+			"icon": "/mdm_img/content/logos/master-1.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": true,
+			"includeInStats": true
+		},
+		"engines": [
+			{
+				"_id": "663ccbe0a7b2c88b71160ef3",
+				"name": "Horus"
+			}
+		],
+		"srPrice": 360,
+		"urPrice": 1080,
+		"linkedArticle": null,
+		"hasNotes": true,
+		"hasReplays": true,
+		"illegal": true
+	},
+	{
+		"_id": "668044f25bb65bfbc7b7d910",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-06-29T17:31:21.469Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53127",
+					"name": "Planet Pathfinder"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d9b",
+					"name": "Kashtira Riseheart"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d86",
+					"name": "Dimension Shifter"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9597",
+					"name": "Kashtira Fenrir"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9598",
+					"name": "Kashtira Ogre"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa959b",
+					"name": "Kashtira Unicorn"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "632915ccd4dd6c3fea9be861",
+					"name": "Scareclaw Kashtira"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5259a",
+					"name": "Harpie's Feather Duster"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314f",
+					"name": "Pot of Extravagance"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5298e",
+					"name": "Lightning Storm"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53152",
+					"name": "Pot of Prosperity"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d9a",
+					"name": "Kashtiratheosis"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52dd1",
+					"name": "Necrovalley"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "632915ccd4dd6c3fea9be85a",
+					"name": "Pressured Planet Wraitsoth"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d8d",
+					"name": "Dimensional Fissure"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9596",
+					"name": "Kashtira Birth"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51a68",
+					"name": "Crossout Designator"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d98",
+					"name": "Kashtira Big Bang"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa9599",
+					"name": "Kashtira Preparations"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5163b",
+					"name": "Baronne de Fleur"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "6126b426f9d784006595dd0b",
+					"name": "Swordsoul Supreme Sovereign - Chengying"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52f07",
+					"name": "Number F0: Utopic Future"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52f09",
+					"name": "Number F0: Utopic Draco Future"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52e82",
+					"name": "Number 11: Big Eye"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51be3",
+					"name": "Dark Armed, the Dragon of Annihilation"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "62de2101e9066c4257aa959a",
+					"name": "Kashtira Shangri-Ira"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "63290d97d4dd6c3fea9b6d96",
+					"name": "Kashtira Arise-Heart"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51dc4",
+					"name": "Divine Arsenal AA-ZEUS - Sky Thunder"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/master-i/june-2024/kashtira/daominah/AkSz6/",
+		"deckType": {
+			"name": "Kashtira",
+			"tournamentPower": 1.5
+		},
+		"rankedType": {
+			"name": "Master I",
+			"shortName": "Master I",
+			"icon": "/mdm_img/content/logos/master-1.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": true,
+			"includeInStats": true
+		},
+		"engines": [],
+		"srPrice": 360,
+		"urPrice": 870,
+		"linkedArticle": null,
+		"hasNotes": true,
+		"illegal": true
+	},
+	{
+		"_id": "6642648b6dd21edf72493790",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-05-13T19:05:27.977Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5179e",
+					"name": "Blue-Eyes White Dragon"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f3e",
+					"name": "Effect Veiler"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53478",
+					"name": "Sage with Eyes of Blue"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a75",
+					"name": "The White Stone of Ancients"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52b9f",
+					"name": "Maxx \"C\""
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a515b1",
+					"name": "Ash Blossom & Joyous Spring"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a52373",
+					"name": "Ghost Belle & Haunted Mansion"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a513e2",
+					"name": "Aleister the Invoker"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568c",
+					"name": "Bystial Druiswurm"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62ddd693d4d4b99dbbc9568d",
+					"name": "Bystial Magnamhut"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63382fb93cc79c1273713311",
+					"name": "Bystial Baldrake"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a5178c",
+					"name": "Blue-Eyes Alternative White Dragon"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b45c",
+					"name": "Blue-Eyes Jet Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a1b",
+					"name": "The Melody of Awakening Dragon"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52769",
+					"name": "Invocation"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52a91",
+					"name": "Magical Meltdown"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53869",
+					"name": "Super Polymerization"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5272e",
+					"name": "Infinite Impermanence"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53620",
+					"name": "Skill Drain"
+				},
+				"amount": 1
+			}
+		],
+		"extra": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276b",
+					"name": "Invoked Caliga"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52d3d",
+					"name": "Mudragon of the Swamp"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "62fc105bc9c52ba40dd3d543",
+					"name": "Garura, Wings of Resonant Life"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52770",
+					"name": "Invoked Purgatrio"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51f14",
+					"name": "Earth Golem @Ignister"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "61ef0edf39cb086ec8b2b45d",
+					"name": "Blue-Eyes Tyrant Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5276f",
+					"name": "Invoked Mechaba"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e56",
+					"name": "Dragon Knight Draco-Equiste"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51705",
+					"name": "Black Rose Moonlight Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51791",
+					"name": "Blue-Eyes Spirit Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "63b580b1ba9f3a0068c62057",
+					"name": "Chaos Angel"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52ec2",
+					"name": "Number 62: Galaxy-Eyes Prime Photon Dragon"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53351",
+					"name": "Relinquished Anima"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51597",
+					"name": "Artemis, the Magistus Moon Maiden"
+				},
+				"amount": 1
+			}
+		],
+		"side": [],
+		"url": "/master-v/may-2024/blue-eyes/daominah/wD7YG/",
+		"deckType": {
+			"name": "Blue-Eyes"
+		},
+		"rankedType": {
+			"name": "Master V",
+			"shortName": "Master V",
+			"icon": "/mdm_img/content/logos/master-5.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": false,
+			"includeInStats": true
+		},
+		"engines": [
+			{
+				"_id": "627d284578fb7150471f883f",
+				"name": "Invoked"
+			}
+		],
+		"srPrice": 390,
+		"urPrice": 690,
+		"linkedArticle": null,
+		"hasNotes": true
+	},
+	{
+		"_id": "661cb21305629768b14e573b",
+		"author": {
+			"_id": "646456f28d4d91b234ae3a57",
+			"roles": [],
+			"username": "DaoMinAh"
+		},
+		"created": "2024-04-15T04:50:10.916Z",
+		"main": [
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a526bc",
+					"name": "Ignis Heat, the True Dracowarrior"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a52afd",
+					"name": "Majesty Maiden, the True Dracocaster"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3a9a0e24f2d54a51486",
+					"name": "Anchamoufrite"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d95",
+					"name": "Dinomight Knight, the True Dracofighter"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314e",
+					"name": "Pot of Duality"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a5314c",
+					"name": "Pot of Desires"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51e73",
+					"name": "Dragonic Diagram"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a5281f",
+					"name": "Kaiser Colosseum"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51d8d",
+					"name": "Dimensional Fissure"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a51dbb",
+					"name": "Disciples of the True Dracophoenix"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53bcc",
+					"name": "True Draco Heritage"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aaa0e24f2d54a52011",
+					"name": "Evenly Matched"
+				},
+				"amount": 2
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a533e4",
+					"name": "Rivalry of Warlords"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53620",
+					"name": "Skill Drain"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a536b8",
+					"name": "Soul Drain"
+				},
+				"amount": 1
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53a1e",
+					"name": "The Monarchs Erupt"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aba0e24f2d54a529ea",
+					"name": "Lose 1 Turn"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53bcb",
+					"name": "True Draco Apocalypse"
+				},
+				"amount": 3
+			},
+			{
+				"card": {
+					"_id": "60c2b3aca0e24f2d54a53bd2",
+					"name": "True King's Return"
+				},
+				"amount": 3
+			}
+		],
+		"extra": [],
+		"side": [],
+		"url": "/master-v/april-2024/true-draco/daominah/1r0al/",
+		"deckType": {
+			"name": "True Draco"
+		},
+		"rankedType": {
+			"name": "Master V",
+			"shortName": "Master V",
+			"icon": "/mdm_img/content/logos/master-5.webp",
+			"statsWeight": 10,
+			"event": true,
+			"activeEvent": false,
+			"includeInStats": true
+		},
+		"engines": [],
+		"srPrice": 450,
+		"urPrice": 0,
+		"linkedArticle": null,
+		"hasNotes": true,
+		"illegal": true
+	}
+]
