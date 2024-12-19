@@ -22,7 +22,6 @@ func main() {
 		log.Fatalf("error os.Stat dataDir: %v", err)
 	}
 
-	var allRankDecks []ygo.Deck
 	monthsRankDecks := make(map[string][]ygo.KeyCount[ygo.Archetype])
 
 	year := 2024
@@ -47,24 +46,23 @@ func main() {
 				archetypesCount[deck.Archetype()]++
 			}
 		}
-		allRankDecks = append(allRankDecks, rankedDecks...)
 		monthsRankDecks[monthStr] = ygo.SortMapByValueDesc(archetypesCount)
-		if len(monthsRankDecks[monthStr]) > 10 {
-			monthsRankDecks[monthStr] = monthsRankDecks[monthStr][:10]
-		}
 		log.Printf("month %v: len(decks) %v, len(rankedDecks) %v", monthStr, len(decks), len(rankedDecks))
 	}
 
-	outputFilePath := filepath.Join(projectRoot, "cmd/s3_analyze_2024/ranked_decks_2024_12.csv")
-	file, err := os.Create(outputFilePath)
-	if err != nil {
-		log.Fatalf("error os.Create: %v", err)
+	for outputFile, marshalFunc := range map[string]func(map[string][]ygo.KeyCount[ygo.Archetype]) [][]string{
+		"ranked_decks_2024.csv": ygo.MarshalMonthsDecksToCSVGroupByMonth,
+		"time_series_2024.csv":  ygo.MarshalMonthsDecksToCSV,
+	} {
+		outputFilePath := filepath.Join(projectRoot, "cmd/s3_analyze_2024/", outputFile)
+		file, err := os.Create(outputFilePath)
+		if err != nil {
+			log.Fatalf("error os.Create: %v", err)
+		}
+		csvWriter := csv.NewWriter(file)
+		csvWriter.WriteAll(marshalFunc(monthsRankDecks))
+		csvWriter.Flush()
+		file.Close()
+		log.Printf("wrote %v", outputFilePath)
 	}
-	csvWriter := csv.NewWriter(file)
-	csvWriter.WriteAll(ygo.MarshalMonthsDecksToCSV(monthsRankDecks))
-	csvWriter.Flush()
-	file.Close()
-	log.Printf("wrote %v", outputFilePath)
-
-	_ = allRankDecks
 }

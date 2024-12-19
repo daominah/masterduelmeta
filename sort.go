@@ -1,7 +1,9 @@
 package masterduelmeta
 
 import (
+	"encoding/csv"
 	"fmt"
+	"os"
 	"sort"
 	"strconv"
 	"time"
@@ -39,12 +41,13 @@ func GetNextMonth(month string) (string, error) {
 	return nextMonth.Format("2006-01"), nil
 }
 
-func MarshalMonthsDecksToCSV(monthsDecks map[string][]KeyCount[Archetype]) [][]string {
+func MarshalMonthsDecksToCSVGroupByMonth(monthsDecks map[string][]KeyCount[Archetype]) [][]string {
 	var months []string
 	for month := range monthsDecks {
 		months = append(months, month)
 	}
 	sort.Strings(months)
+
 	var columns [][]string
 	for _, month := range months {
 		sumDecksCount := 0
@@ -57,12 +60,37 @@ func MarshalMonthsDecksToCSV(monthsDecks map[string][]KeyCount[Archetype]) [][]s
 		for _, deckCount := range monthsDecks[month] {
 			column0 = append(column0, string(deckCount.Key))
 			column1 = append(column1, strconv.Itoa(deckCount.Count))
-			percent := fmt.Sprintf("%.1f", float64(deckCount.Count)/float64(sumDecksCount)*100)
-			column2 = append(column2, percent+`%`)
+			percent := float64(deckCount.Count) / float64(sumDecksCount) * 100
+			column2 = append(column2, fmt.Sprintf("%.1f", percent)+`%`)
 		}
 		columns = append(columns, column0, column1, column2)
 	}
 	return RotateMatrix(columns)
+}
+
+func MarshalMonthsDecksToCSV(monthsDecks map[string][]KeyCount[Archetype]) [][]string {
+	var months []string
+	for month := range monthsDecks {
+		months = append(months, month)
+	}
+	sort.Strings(months)
+
+	rows := [][]string{{"Month", "Deck", "Percent"}}
+	for _, month := range months {
+		sumDecksCount := 0
+		for _, deckCount := range monthsDecks[month] {
+			sumDecksCount += deckCount.Count
+		}
+		for _, deckCount := range monthsDecks[month] {
+			percent := float64(deckCount.Count) / float64(sumDecksCount) * 100
+			rows = append(rows, []string{
+				month,
+				string(deckCount.Key),
+				fmt.Sprintf("%.1f", percent),
+			})
+		}
+	}
+	return rows
 }
 
 // RotateMatrix rotate rows and columns of a matrix,
@@ -90,4 +118,23 @@ func RotateMatrix(matrix [][]string) [][]string {
 	}
 
 	return rotated
+}
+
+// WriteTestCSVFile writes data to "test_output.csv" (at the current running directory),
+func WriteTestCSVFile(rows [][]string) error {
+	file, err := os.Create("test_output.csv")
+	if err != nil {
+		return fmt.Errorf(`os.Create: %v`, err)
+	}
+	defer file.Close()
+	writer := csv.NewWriter(file)
+	err = writer.WriteAll(rows)
+	if err != nil {
+		return fmt.Errorf(`writer.WriteAll: %v`, err)
+	}
+	writer.Flush()
+	if err := writer.Error(); err != nil {
+		return fmt.Errorf(`writer.Error: %v`, err)
+	}
+	return nil
 }

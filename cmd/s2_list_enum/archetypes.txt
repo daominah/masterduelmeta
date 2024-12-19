@@ -1,0 +1,274 @@
+                               Snake-Eye: 700
+                                Labrynth: 487
+                                Mathmech: 475
+                             Tearlaments: 438
+                           Tenpai Dragon: 360
+                                 Branded: 359
+                                   Yubel: 353
+                               Fire King: 319
+                                Kashtira: 269
+                          Barrier Statue: 268
+                         Voiceless Voice: 264
+                              Rescue-ACE: 245
+                           Vanquish Soul: 219
+                             Dinomorphia: 212
+                                 Purrely: 204
+                               Mannadium: 196
+                              Centur-Ion: 189
+                       Infernoble Knight: 188
+                      Superheavy Samurai: 165
+                    Red Dragon Archfiend: 156
+                               Swordsoul: 152
+                                 Spright: 149
+                                 Chimera: 138
+                          Floowandereeze: 137
+                                   Rikka: 131
+                                 Mikanko: 128
+                             Sky Striker: 127
+                             Dragon Link: 118
+                               Unchained: 106
+                                    HERO: 105
+                            Salamangreat: 102
+                                Traptrix: 101
+                                  Runick: 99
+                                Dinosaur: 99
+                               Live☆Twin: 95
+                                 Naturia: 90
+                       Pendulum Magician: 86
+                                Endymion: 78
+                         Phantom Knights: 77
+                               Exosister: 77
+                               Synchrons: 74
+                                   Ninja: 71
+                               Scareclaw: 71
+                           Ritual Beasts: 70
+                               Paleozoic: 67
+                                Evil Eye: 63
+                                   Horus: 62
+                          Thunder Dragon: 59
+                            Ancient Gear: 58
+                            White Forest: 57
+                                Vaylantz: 54
+                           Galaxy Photon: 53
+                              Vaalmonica: 53
+                             Ice Barrier: 53
+                                  Orcust: 52
+                              Raidraptor: 47
+                               Marincess: 46
+                                  SPYRAL: 45
+                                 Zoodiac: 41
+                                 Eldlich: 38
+                          Gimmick Puppet: 38
+                               Melodious: 36
+                                Madolche: 35
+                               Infernoid: 35
+                                P.U.N.K.: 34
+                        Stardust Bystial: 33
+                              Gold Pride: 33
+                                   D/D/D: 32
+                                 Memento: 32
+                         Plunder Patroll: 31
+                               Lunalight: 29
+                              Prank-Kids: 28
+                            Tellarknight: 27
+                                Fur Hire: 27
+                           Dark Magician: 27
+                                Volcanic: 27
+                             Dracoslayer: 26
+                               Dogmatika: 26
+                                 Drytron: 26
+                                Nemleria: 26
+                                    Burn: 25
+                              Blackwings: 25
+                                   Ghoti: 24
+                              Chain Burn: 23
+                              Tech Genus: 23
+                                Ogdoadic: 23
+                                Lyrilusc: 23
+                           Crystal Beast: 22
+                                Odd-Eyes: 22
+                              Lightsworn: 22
+                              True Draco: 21
+                       Danger Dark World: 20
+                                 Machina: 19
+                              Generaider: 19
+                                  Melffy: 17
+                             Neo-Spacian: 17
+                               Speedroid: 16
+                               Mayakashi: 16
+                               Infernity: 16
+                            Cyber Dragon: 16
+                               Blue-Eyes: 16
+                                  Agents: 15
+                             Gravekeeper: 15
+                                  Gishki: 15
+                           Rank 8 go 2nd: 15
+                               Dragunity: 15
+                           Buster Blader: 14
+                                 Bystial: 14
+                              Altergeist: 14
+                                 Therion: 13
+                            Goblin Biker: 13
+                           Virtual World: 13
+                                  Exodia: 13
+                    Mekk-Knight Crusadia: 12
+                               Springans: 11
+                     Shining Sarcophagus: 11
+                                 Numeron: 11
+                            Mekk-Knights: 10
+                              Earthbound: 10
+                             Tri-Brigade: 10
+                                     Umi: 10
+                             Majespecter: 10
+                        Lair of Darkness: 9
+                          Magical Musket: 9
+                               Amazement: 9
+                                 Charmer: 8
+                               Nouvelles: 8
+                        Ancient Warriors: 8
+                                 Fluffal: 8
+                                   Genex: 8
+                             Gem-Knights: 8
+                              Solfachord: 8
+                                  Nordic: 8
+                   Scareclaw Tri-Brigade: 8
+                              Dragonmaid: 8
+                               Subterror: 7
+                       Invoked Dogmatika: 7
+                     Live☆Twin Unchained: 7
+                                   Aroma: 7
+                             Performapal: 7
+                            Egyptian God: 6
+                                   Stall: 6
+                           Adamancipator: 6
+                              Time Thief: 6
+                                  Invoke: 6
+                                 Malefic: 6
+                              Predaplant: 6
+                            Armed Dragon: 6
+                  Supreme King Melodious: 5
+                                     ABC: 5
+                               PSY-Frame: 5
+                                 Tistina: 5
+                                 Magikey: 5
+                                    Toon: 5
+                           Skull Servant: 4
+                                 Zombies: 4
+                       Mermail Atlantean: 4
+                             Libromancer: 4
+                                    Evol: 4
+                            Dragon Ruler: 4
+                           Gunkan Suship: 4
+                            Witchcrafter: 4
+                                   Shark: 4
+                                   Chaos: 4
+                               Ursarctic: 4
+                                Darklord: 4
+                                 Icejade: 4
+                               Trickstar: 4
+                            Fortune Lady: 3
+                          Alien Ogdoadic: 3
+                         Weather Painter: 3
+                            Dream Mirror: 3
+                                    Watt: 3
+                           Gate Guardian: 3
+                     True Draco Monarchs: 3
+                                Red-Eyes: 3
+                            Noble Knight: 3
+                             Abyss Actor: 3
+                               Chaos MAX: 3
+                                   Zefra: 3
+                                Monarchs: 3
+                                Shaddoll: 2
+                                  Plants: 2
+                  Invoked Thunder Dragon: 2
+                   Lunalight Tri-Brigade: 2
+                         Flame Swordsman: 2
+               Buster Blader Dragon Link: 2
+                     Live☆Twin Dogmatika: 2
+                               Evilswarm: 2
+                        Formula Athletes: 2
+             Gladiator Beast Tri-Brigade: 2
+                                 Yosenju: 2
+                              Vernusylph: 2
+                                 Railway: 2
+                          Battlin' Boxer: 2
+                             Dual Avatar: 2
+                                  Nekroz: 2
+                               Spellbook: 2
+                            Sacred Beast: 2
+                           Cyberse Combo: 2
+                                  Utopia: 2
+                               Shinobird: 2
+                    Lunalight Raidraptor: 2
+                                 Myutant: 2
+                               Atlantean: 2
+                           World Chalice: 2
+                              Appliancer: 2
+                                   Gouki: 2
+                             Beetroopers: 2
+                                Igknight: 2
+                                 Penguin: 2
+                                   Cubic: 2
+            Phantom Knight Burning Abyss: 2
+                                 S-Force: 2
+                                    Gaia: 2
+                                  Fabled: 1
+                                   Ojama: 1
+                               Fire Fist: 1
+                      Harpie Tri-Brigade: 1
+                           Burning Abyss: 1
+                                  3-Axis: 1
+                  Advanced Crystal Beast: 1
+                               Tindangle: 1
+                    Dragunity Dragonmaid: 1
+                                   Scrap: 1
+                                   Alien: 1
+                        Lunalight Orcust: 1
+                                  Heroic: 1
+                                 Kuriboh: 1
+                       Symphonic Warrior: 1
+                       Generaider Musket: 1
+                                 Graydle: 1
+                         Zoodiac Eldlich: 1
+                      Melffy Tri-Brigade: 1
+                                  Rokket: 1
+                          Magnet Warrior: 1
+                                    Roid: 1
+                                 Spirits: 1
+                      Evil Eye Unchained: 1
+                               Amazoness: 1
+                             Super Quant: 1
+                                   Kozmo: 1
+                      Branded Predaplant: 1
+                             Aquaactress: 1
+                                Artifact: 1
+                               Windwitch: 1
+                               Gren Maju: 1
+                             Morphtronic: 1
+                           Destiny Board: 1
+                                Magistus: 1
+                                    Star: 1
+                                  Insect: 1
+                                Crusadia: 1
+                           Telefon Combo: 1
+           Subterror Amazement Dogmatika: 1
+                               Adventure: 1
+                               Cyberdark: 1
+                              Batteryman: 1
+                            Dinowrestler: 1
+                         Nekroz Megalith: 1
+                          Heraldic Beast: 1
+                               Amorphage: 1
+                           Trap Monsters: 1
+                                Megalith: 1
+                        Invoked P.U.N.K.: 1
+                              Hazy Flame: 1
+                        Swordsoul Despia: 1
+                             Grass Chaos: 1
+                                 Meklord: 1
+                              Chronomaly: 1
+                            Koa'ki Meiru: 1
+                         Auroradon Combo: 1
+                                 Triamid: 1
+               Invoked Dogmatika Eldlich: 1
