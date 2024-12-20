@@ -23,6 +23,7 @@ func main() {
 	}
 
 	monthsRankDecks := make(map[string][]ygo.KeyCount[ygo.Archetype])
+	var allRankDecks []ygo.Deck
 
 	year := 2024
 	for month := 1; month <= 12; month++ {
@@ -43,18 +44,23 @@ func main() {
 		for _, deck := range decks {
 			if deck.CheckIsNormalRank() {
 				rankedDecks = append(rankedDecks, deck)
+				allRankDecks = append(allRankDecks, deck)
 				archetypesCount[deck.Archetype()]++
 			}
 		}
 		monthsRankDecks[monthStr] = ygo.SortMapByValueDesc(archetypesCount)
-		log.Printf("month %v: len(decks) %v, len(rankedDecks) %v", monthStr, len(decks), len(rankedDecks))
+		if month == 12 {
+			log.Printf("month %v: len(decks) %v, len(rankedDecks) %v",
+				monthStr, len(decks), len(rankedDecks))
+		}
 	}
 
+	log.Printf("________________________________")
 	for outputFile, marshalFunc := range map[string]func(map[string][]ygo.KeyCount[ygo.Archetype]) [][]string{
-		"ranked_decks_2024.csv": ygo.MarshalMonthsDecksToCSVGroupByMonth,
-		"time_series_2024.csv":  ygo.MarshalMonthsDecksToCSV,
+		"cmd/s3_analyze_2024/ranked_decks_2024.csv": ygo.MarshalMonthsDecksToCSVGroupByMonth,
+		"visualization/time_series_2024.csv":        ygo.MarshalMonthsDecksToCSV,
 	} {
-		outputFilePath := filepath.Join(projectRoot, "cmd/s3_analyze_2024/", outputFile)
+		outputFilePath := filepath.Join(projectRoot, "", outputFile)
 		file, err := os.Create(outputFilePath)
 		if err != nil {
 			log.Fatalf("error os.Create: %v", err)
@@ -64,5 +70,16 @@ func main() {
 		csvWriter.Flush()
 		file.Close()
 		log.Printf("wrote %v", outputFilePath)
+	}
+
+	if true { // specific query to clarify deck type
+		log.Printf("________________________________")
+		for _, deck := range allRankDecks {
+			if deck.CheckContainsCard("Qebehsenuef, Protection of Horus") &&
+				// deck.CheckContainsCard("Secret Village of the Spellcasters") &&
+				deck.CheckContainsCard("Summon Limit") {
+				log.Printf("deck Qebehsenuef type %v", deck.DeckType.Name)
+			}
+		}
 	}
 }

@@ -92,25 +92,6 @@ func (d Deck) CheckIsNormalRank() bool {
 	return strings.Contains(tournamentType, "duelist cup")
 }
 
-// Archetype usually is the same as DeckType.Name,
-// but sometimes this normalizes the deck name, e.g. "Swordsoul Tenyi" to "Swordsoul"
-func (d Deck) Archetype() Archetype {
-	archetype := NormalizeDeckTypeName(d.DeckType.Name)
-	switch archetype {
-	case Branded:
-		// check if the deck has more than 2 "Red-Eyes Dark Dragoon"
-		return Branded
-	case SnakeEye, FireKing:
-		// check if the deck uses "Legendary Fire King Ponix"
-		if d.CheckContainsCard("Legendary Fire King Ponix") {
-			return FireKing
-		}
-		return SnakeEye
-	default:
-		return archetype
-	}
-}
-
 // CheckContainsCard checks if the deck contains a card with at least the specified amount.
 // If minAmount is not provided, it defaults to 1.
 // It searches through the Main, Extra, and Side cards of the deck.
@@ -131,4 +112,37 @@ func (d Deck) CheckContainsCard(cardName string, minAmount ...int) bool {
 		}
 	}
 	return false
+}
+
+// Archetype usually is the same as DeckType.Name,
+// but sometimes this normalizes the deck name, e.g. "Swordsoul Tenyi" to "Swordsoul"
+func (d Deck) Archetype() Archetype {
+	archetype := NormalizeDeckTypeName(d.DeckType.Name)
+	switch archetype {
+	case Branded, DarkMagician:
+		if d.CheckContainsCard("Red-Eyes Dark Dragoon", 2) {
+			return Dragoon
+		}
+		return archetype
+	case Centurion:
+		if d.CheckContainsCard("Lair of Darkness") {
+			return LairOfDarkness
+		} else if d.CheckContainsCard("The Bystial Lubellion", 3) {
+			return Bystial
+		}
+		return Centurion
+	case Rank8Go2nd:
+		if d.CheckContainsCard("Qebehsenuef, Protection of Horus") {
+			return Horus
+		}
+		return Rank8Go2nd
+	case SnakeEye, FireKing:
+		// check if the deck uses "Legendary Fire King Ponix"
+		if d.CheckContainsCard("Legendary Fire King Ponix") {
+			return FireKing
+		}
+		return SnakeEye
+	default:
+		return archetype
+	}
 }

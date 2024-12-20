@@ -2,10 +2,18 @@ package masterduelmeta
 
 // some archetypes that need to check deck list to determine the real purpose of the deck
 const (
-	BarrierStatue Archetype = "Barrier Statue"
-	Branded       Archetype = "Branded"
-	FireKing      Archetype = "Fire King"
-	SnakeEye      Archetype = "Snake-Eye"
+	BarrierStatue  Archetype = "Barrier Statue"
+	Branded        Archetype = "Branded"
+	Bystial        Archetype = "Bystial"
+	Centurion      Archetype = "Centur-Ion"
+	DarkMagician   Archetype = "Dark Magician"
+	Dragoon        Archetype = "Dragoon"
+	FireKing       Archetype = "Fire King"
+	Horus          Archetype = "Horus"
+	LairOfDarkness Archetype = "Lair of Darkness"
+	Rank8Go2nd     Archetype = "Rank 8 go 2nd"
+	SnakeEye       Archetype = "Snake-Eye"
+	Tearlaments    Archetype = "Tearlaments"
 )
 
 // NormalizeDeckTypeName returns the main archetype used in the deck,
@@ -25,6 +33,12 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 
 	case "Branded", "Branded Tearlaments", "Despia":
 		return "Branded"
+
+	case "Centur-Ion", "Centurion", "Stardust Bystial":
+		return "Centur-Ion"
+
+	case "Danger Dark World", "Dark World":
+		return "Dark World"
 
 	case "Dinos":
 		return "Dinosaur"
@@ -56,6 +70,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Earth Machine":
 		return "Machina"
 
+	case "Madolche", "Eldlich Madolche", "Madolche Tri-Brigade":
+		return "Madolche"
+
 	case "@Ignister", "Code Talker", "Mathmech":
 		return "Mathmech"
 
@@ -71,6 +88,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Adventure Phantom Knights", "Phantom Knights":
 		return "Phantom Knights"
 
+	case "Aroma", "Ragnaraika", "Rikka", "Sunavalon", "Plants":
+		return "Plant"
+
 	case "8-Axis Blind Second", "Blind Second":
 		return "Rank 8 go 2nd"
 
@@ -80,6 +100,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Rescue-ACE", "Rescue Ace", "Snake-Eye Rescue Ace":
 		return "Rescue-ACE"
 
+	case "Ritual Beasts":
+		return "Ritual Beast"
+
 	case "Bystial Runick":
 		return "Runick"
 
@@ -88,6 +111,15 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 
 	case "Swordsoul Tenyi":
 		return "Swordsoul"
+
+	case "Synchrons":
+		return "Synchron"
+
+	case "T.G.":
+		return "Tech Genus"
+
+	case "Traptrix", "Traptrix Dogmatika":
+		return "Traptrix"
 
 	case "Tri-Brigade Zoodiac", "Zoodiac Tri-Brigade":
 		return "Tri-Brigade"
