@@ -51,10 +51,10 @@ func main() {
 	}
 
 	for outputFile, marshalFunc := range map[string]func(map[string][]ygo.KeyCount[ygo.Archetype]) [][]string{
-		"ranked_decks_2024.csv": ygo.MarshalMonthsDecksToCSVGroupByMonth,
-		"time_series_2024.csv":  ygo.MarshalMonthsDecksToCSV,
+		"cmd/s3_analyze_2024/ranked_decks_2024.csv": ygo.MarshalMonthsDecksToCSVGroupByMonth,
+		"visualization/time_series_2024.csv":        ygo.MarshalMonthsDecksToCSV,
 	} {
-		outputFilePath := filepath.Join(projectRoot, "cmd/s3_analyze_2024/", outputFile)
+		outputFilePath := filepath.Join(projectRoot, "", outputFile)
 		file, err := os.Create(outputFilePath)
 		if err != nil {
 			log.Fatalf("error os.Create: %v", err)

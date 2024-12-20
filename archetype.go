@@ -71,6 +71,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Adventure Phantom Knights", "Phantom Knights":
 		return "Phantom Knights"
 
+	case "Aroma", "Ragnaraika", "Rikka", "Sunavalon", "Plants":
+		return "Plant"
+
 	case "8-Axis Blind Second", "Blind Second":
 		return "Rank 8 go 2nd"
 
@@ -88,6 +91,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 
 	case "Swordsoul Tenyi":
 		return "Swordsoul"
+
+	case "Traptrix", "Traptrix Dogmatika":
+		return "Traptrix"
 
 	case "Tri-Brigade Zoodiac", "Zoodiac Tri-Brigade":
 		return "Tri-Brigade"
