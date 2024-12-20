@@ -10,9 +10,8 @@ import (
 )
 
 func TestDownloadTopDecks(t *testing.T) {
-	//t.Skip("this test always redownload data and overwrite the existing data")
-
 	month := "2024-12"
+	t.Skip("this test always redownload data and overwrite the existing data for " + month)
 	data, err := DownloadTopDecks(month)
 	if err != nil {
 		t.Fatalf("error DownloadTopDecks: %v", err)
@@ -23,7 +22,7 @@ func TestDownloadTopDecks(t *testing.T) {
 	projectRoot, _ := gofast.GetProjectRootPath()
 	outputPath := filepath.Join(projectRoot, "downloaded_data", fmt.Sprintf(`decks_%v.json`, month))
 	t.Logf("outputPath: %v", outputPath)
-	err = os.WriteFile(outputPath, data, 0666)
+	err = os.WriteFile(outputPath, data, 0o666)
 	if err != nil {
 		t.Fatalf("error WriteFile: %v", err)
 	}

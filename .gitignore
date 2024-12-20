@@ -28,3 +28,4 @@ go.work.sum
 
 # Office temp files
 cmd/s3_analyze_2024/.~lock.*
+test_output.csv
