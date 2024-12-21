@@ -26,6 +26,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Branded", "Branded Tearlaments", "Despia":
 		return "Branded"
 
+	case "Danger Dark World", "Dark World":
+		return "Dark World"
+
 	case "Dinos":
 		return "Dinosaur"
 
@@ -82,6 +85,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 
 	case "Rescue-ACE", "Rescue Ace", "Snake-Eye Rescue Ace":
 		return "Rescue-ACE"
+
+	case "Ritual Beasts":
+		return "Ritual Beast"
 
 	case "Bystial Runick":
 		return "Runick"
