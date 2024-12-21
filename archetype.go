@@ -92,6 +92,12 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Swordsoul Tenyi":
 		return "Swordsoul"
 
+	case "Synchrons":
+		return "Synchron"
+
+	case "T.G.":
+		return "Tech Genus"
+
 	case "Traptrix", "Traptrix Dogmatika":
 		return "Traptrix"
 
