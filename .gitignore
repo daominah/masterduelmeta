@@ -204,3 +204,4 @@ cython_debug/
 cmd/s3_analyze_2024/.~lock.*
 test_output.csv
 .idea/
+visualization/decks2024.png

@@ -39,7 +39,7 @@ data_by_month_sorted: Dict[pd.Timestamp, pd.DataFrame] = {
     month: df.sort_values(by="Percent", ascending=False) for month, df in dfs_by_month.items()}
 
 # Create a new figure (graph) with size in inches
-plt.figure(figsize=(16, 9))
+plt.figure(figsize=(16, 10))
 # Adjust the subplot parameters to move the plot to the left and use full vertical space
 plt.subplots_adjust(left=0.05, right=0.9, top=0.95, bottom=0.05)
 
@@ -71,8 +71,10 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
     print(f"month: {month.strftime('%Y-%m')}, top_10_decks: {top_10_decks}")
     if month not in previous_positions:
         previous_positions[month] = []  # Initialize list for each month
-    # Find the peak percentage of all decks in the current month
+
+    # Find the best decks in the current month
     peak_of_month = df.loc[df["Percent"].idxmax()]
+    peak2_of_month = df.loc[df["Percent"].nlargest(2).index[-1]]
 
     for deck in top_10_decks:
         deck_data = data_all[data_all["Deck"] == deck]  # rows of a specific deck in months
@@ -92,15 +94,18 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
         # Add icon or text at the peak of the deck over the months
         if deck in deck_icons:
             current_percent = deck_data[deck_data["Month"] == month]["Percent"].values[0]
-            # only draw icon at the peak of the month, the peak of the deck, or the last month
-            if current_percent in [peak_of_month["Percent"], peak_of_a_deck["Percent"]] or month == last_month:
+            shouldDrawIcon = (current_percent == peak_of_month["Percent"] or
+                              current_percent == peak2_of_month["Percent"] or
+                              current_percent == peak_of_a_deck["Percent"] or
+                              month == last_month)
+            if shouldDrawIcon:
                 position = (month, current_percent)
 
                 # if close to existed icon, adjust position and transparency
-                alpha = 1.0
+                alpha = 1.00
                 for prev_pos in previous_positions[month]:
                     if position[0] == prev_pos[0] and abs(position[1] - prev_pos[1]) < 1:
-                        alpha *= 0.9  # Make the image transparent if close to a previous image
+                        alpha *= 0.98  # Make the image transparent if close to a previous image
                         position = (position[0], position[1] - 0.5)  # Move down
                         position = (position[0] + pd.Timedelta(days=4), position[1])  # Move to the right
                 adjustedIcon = deck_icons[deck].copy()
@@ -122,11 +127,11 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
 # Set the labels and title
 plt.xlabel("")  # "Month"
 plt.ylabel("")  # "Percent"
-plt.title("MasterDuelMeta 2024 Masters and DLvMax decks")
+plt.title("MasterDuelMeta 2024 Master and DLvMax decks")
 plt.grid(True)
 
-# Set y-axis (Percent) range from 0 to 25
-plt.ylim(0, 25)
+# Set y-axis (Percent) range
+plt.ylim(0, 22)
 
 # Ensure the x-axis is sorted by month
 plt.gca().xaxis.set_major_formatter(DateFormatter("%Y-%m"))
@@ -142,4 +147,6 @@ sorted_labels_handles = sorted(zip(labels, handles), key=lambda x: average_perce
 sorted_labels, sorted_handles = zip(*sorted_labels_handles)
 plt.legend(sorted_handles, sorted_labels, title="Decks", bbox_to_anchor=(1.01, 1), loc="upper left", prop={"size": 7})
 
+# Save the plot as a PNG file
+plt.savefig("decks2024.png", format="png", dpi=300)
 plt.show()
