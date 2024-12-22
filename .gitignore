@@ -205,3 +205,4 @@ cmd/s3_analyze_2024/.~lock.*
 test_output.csv
 .idea/
 visualization/decks_2024.png
+visualization/decks_2024_log_scale.png

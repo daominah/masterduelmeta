@@ -36,8 +36,10 @@ To do this step, run [cmd/s3_analyze_2024](cmd/s3_analyze_2024/s3_analyze_2024.g
 
 ### 4. Visualize data
 
-Run [visualization\main.py](visualization\main.py)
+Run [visualization/main.py](visualization/main.py)
 
 ## Chart for 2024
 
 ![decks_2024.png](decks_2024.png)
+
+![decks_2024_log_scale.png](decks_2024_log_scale.png)

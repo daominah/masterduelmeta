@@ -72,7 +72,7 @@ func main() {
 		log.Printf("wrote %v", outputFilePath)
 	}
 
-	if true { // specific query to clarify deck type
+	if false { // specific query to clarify deck type
 		log.Printf("________________________________")
 		for _, deck := range allRankDecks {
 			if deck.CheckContainsCard("Qebehsenuef, Protection of Horus") &&
