@@ -127,7 +127,8 @@ func (d Deck) Archetype() Archetype {
 	case Centurion:
 		if d.CheckContainsCard("Lair of Darkness") {
 			return LairOfDarkness
-		} else if d.CheckContainsCard("The Bystial Lubellion", 3) {
+		} else if d.CheckContainsCard("The Bystial Lubellion", 3) &&
+			!d.CheckContainsCard("Centur-Ion Trudea", 3) {
 			return Bystial
 		}
 		return Centurion
