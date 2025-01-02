@@ -8,13 +8,15 @@ import (
 	"time"
 
 	ygo "github.com/daominah/masterduelmeta"
-
 	"github.com/mywrap/gofast"
 )
 
 func TestReDownloadTopDecksCurrentMonth(t *testing.T) {
 	month := time.Now().Format("2006-01")
+	// month, _ := "2024-12", time.Now
+
 	// t.Skip("this test always redownload data and overwrite the existing data for " + month)
+
 	t.Logf("redownload data for %v", month)
 	data, err := DownloadTopDecks(month)
 	if err != nil {

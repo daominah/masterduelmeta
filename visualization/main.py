@@ -25,7 +25,7 @@ data_all: pd.DataFrame = pd.read_csv("time_series_2024.csv")
 # Convert the Month column to datetime format pd.Timestamp
 data_all["Month"] = pd.to_datetime(data_all["Month"], format="%Y-%m")
 
-isLogScale = False  # isLogScale determines whether the y-axis is logarithmic or linear
+isLogScale = True  # isLogScale determines whether the y-axis is logarithmic or linear
 
 top_cut_percent: float = 1.00  # filter out rows that have less than 1% representation
 draw_line_threshold = 10.00  # only draw lines for a deck if its peak is greater than this value
