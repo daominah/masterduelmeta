@@ -225,6 +225,12 @@ plt.xticks(rotation=0)
 
 # Add legend ordered by average percentage
 handles, labels = plt.gca().get_legend_handles_labels()
+print(f"legend handles: n_handles: {len(handles)}, labels: {len(labels)}")
+# why is this output: legend handles: n_handles: 10, labels: 10.
+# how to increase the number of handles?
+# the legend only shows decks that form a line (so drew at least twice),
+# adjust this to include more decks in the legend
+
 if len(labels) > 0:
     sorted_labels_handles = sorted(zip(labels, handles), key=lambda x: average_percentages[x[0]], reverse=True)
     sorted_labels, sorted_handles = zip(*sorted_labels_handles)
