@@ -15,7 +15,8 @@ to re-download current month data.
 ### 2. List enum data
 
 Values that Deck (Archetype), Rank, Tournament, .. can be.
-Only need when start this project. Can be ignored.
+Only need when start this project or some new meta decks are added.
+Run [cmd/s2_list_enum](cmd/s2_list_enum/list_enum_deck_types.go) to get enum data.
 
 ### 3. Parse and save data in CSV
 
@@ -32,7 +33,7 @@ Month,Deck,Percent
 2024-10,Yubel,5.8
 ```
 
-To do this step, run [cmd/s3_analyze_2024](cmd/s3_analyze_2024/s3_analyze_2024.go)
+To do this step, run [cmd/s3_analyze_to_visualize](cmd/s3_analyze_to_visualize/s3_analyze_to_visualize.go)
 
 ### 4. Visualize data
 

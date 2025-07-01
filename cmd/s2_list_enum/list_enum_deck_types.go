@@ -76,20 +76,34 @@ func main() {
 		log.Printf("tournamentType %03v: %40v: %v", i, tournamentType.Key, tournamentType.Count)
 	}
 
+	// count decks by archetype, the most popular deck is printed first
+	totalDecksCount := 0
+	for _, count := range countArchetypesInRank {
+		totalDecksCount += count
+	}
 	var lines []string
 	log.Printf("________________________________________________________")
 	sortedDeckTypes := ygo.SortMapByValueDesc(countArchetypesInRank)
 	for _, deckType := range sortedDeckTypes {
-		line := fmt.Sprintf("%40v: %v", deckType.Key, deckType.Count)
+		percentage := float64(deckType.Count) / float64(totalDecksCount) * 100
+		line := fmt.Sprintf("%40v: %5v (%.2f%%)", deckType.Key, deckType.Count, percentage)
 		lines = append(lines, line)
-		// fmt.Println(line)
 	}
 	archetypesOutFile := filepath.Join(projectRoot, "cmd/s2_list_enum", "archetypes.txt")
-	err = os.WriteFile(archetypesOutFile, []byte(strings.Join(lines, "\n")), 0o666)
+	archetypesData := strings.Join(lines, "\n") + "\n"
+	err = os.WriteFile(archetypesOutFile, []byte(archetypesData), 0o666)
 	if err != nil {
 		log.Fatalf("error os.WriteFile: %v", err)
 	}
 	log.Printf("wrote %v", archetypesOutFile)
+
+	for i, deckType := range sortedDeckTypes {
+		if i > 100 {
+			break
+		}
+		percentage := float64(deckType.Count) / float64(totalDecksCount) * 100
+		log.Printf("deckType %03v: %40v: %5v (%.2f%%)", i, deckType.Key, deckType.Count, percentage)
+	}
 
 	//log.Printf("________________________________________________________")
 	//sortedEngines := ygo.SortMapByValueDesc(countEngines)

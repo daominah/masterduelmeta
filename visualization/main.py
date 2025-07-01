@@ -12,6 +12,7 @@ from matplotlib.ticker import FuncFormatter
 
 from archetype_icon import archetype_icon_paths
 
+
 deck_icons: Dict[str, any] = {}  # map Archetype to Image as ndarray
 # read file in dir archetype_icon/, path archetype_icon_paths[deck]
 for deck, path in archetype_icon_paths.items():
@@ -20,7 +21,7 @@ for deck, path in archetype_icon_paths.items():
     # print(f"loaded icon deck: {deck}, path: {icon_file_path}")
 
 # Read the CSV file
-data_all: pd.DataFrame = pd.read_csv("time_series_2024.csv")
+data_all: pd.DataFrame = pd.read_csv("time_series_2024-12_to_2025-06.csv")
 
 # Convert the Month column to datetime format pd.Timestamp
 data_all["Month"] = pd.to_datetime(data_all["Month"], format="%Y-%m")
@@ -29,9 +30,20 @@ isLogScale = True  # isLogScale determines whether the y-axis is logarithmic or 
 
 top_cut_percent: float = 1.00  # filter out rows that have less than 1% representation
 draw_line_threshold = 10.00  # only draw lines for a deck if its peak is greater than this value
-favorite_decks = [  # favorite decks, always draw lines for them; "Bystial" is vaguely classified on MasterDuelMeta, so not included
-    "Barrier Statue", "Kashtira", "Centur-Ion", "Labrynth", "Tearlaments",
-    "True Draco", "Swordsoul", "Utopia", "Blue-Eyes", ]
+favorite_decks = [
+    # favorite decks, always draw lines for them;
+    # "Bystial" is vaguely classified on MasterDuelMeta, so not included
+    "Barrier Statue",
+    "Blue-Eyes",
+    "Centur-Ion",
+    "Kashtira",
+    "Labrynth",
+    "Swordsoul",
+    "Tearlaments",
+    "True Draco",
+    "Utopia",
+]
+
 check_overlap_threshold = 1.0  # check if the icon is overlapping by y-axis difference
 icon_pos_adj_y = 0.18  # adjust the y-axis position of the icon if overlapping
 icon_pos_adj_x = pd.Timedelta(days=3.9)  # adjust the x-axis position of the icon if overlapping
@@ -49,7 +61,7 @@ if isLogScale:
 
 # Ensure all decks have entries for all months, filling missing values with 0
 all_months = pd.date_range(start=data_all["Month"].min(), end=data_all["Month"].max(), freq="MS")
-data_all = data_all.set_index(["Month", "Deck"]).unstack(fill_value=zero).stack().reset_index()
+data_all = data_all.set_index(["Month", "Deck"]).unstack(fill_value=zero).stack(future_stack=True).reset_index()
 
 if isLogScale:
     data_all["Percent"] = np.log(data_all["Percent"])
@@ -107,7 +119,7 @@ missing_icon_decks = set()
 for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
     top_n_decks = df.head(top_cut_n)["Deck"].unique()
     if month == last_month:
-        top_n_decks = df.head(top_cut_n + 2)["Deck"].unique()
+        top_n_decks = df.head(top_cut_n + 4)["Deck"].unique()
     print("________________________________")
     print(f"month: {month.strftime('%Y-%m')}, top {len(top_n_decks)} decks: {top_n_decks}")
     if month not in previous_positions:
@@ -120,7 +132,7 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
     month_top2 = tmp.iloc[1]
 
     decks_to_draw = top_n_decks[::-1]  # reverse order so the top deck icon is on top
-    fav_decks_not_top = []  # draw for favorite decks not in top cut
+    fav_decks_not_top = []  # draw for favorite decks not in top cut (defined in favorite_decks)
     for fav in favorite_decks:
         if fav in decks_to_draw:
             continue
@@ -195,7 +207,7 @@ plt.xlabel("")  # "Month" as x-axis
 plt.xlim(first_month - pd.Timedelta(days=10), last_month + pd.Timedelta(days=30))  # extend x-axis to have space for icons
 plt.ylabel("")  # "Percent" as y-axis
 
-y_axis_max_percent = 21.5  # for y-axis range
+y_axis_max_percent = 22  # for y-axis range
 if isLogScale:
     plt.ylim(np.log(1.0) - 0.08, np.log(y_axis_max_percent) + 0.08)  # log
     plt.gca().yaxis.set_major_formatter(FuncFormatter(lambda y, _: f"{np.exp(y):.2f}%"))
@@ -204,7 +216,7 @@ else:
     plt.gca().yaxis.set_major_formatter(FuncFormatter(lambda y, _: f"{y}%"))
 
 plt.grid(True, linewidth=0.5)
-plt.title("MasterDuelMeta 2024 (Master and DLvMax decks)")
+plt.title("MasterDuelMeta 2025 (Master and DLvMax decks)")
 
 # Ensure the x-axis is sorted by month
 plt.gca().xaxis.set_major_formatter(DateFormatter("%Y-%m"))
@@ -216,13 +228,19 @@ handles, labels = plt.gca().get_legend_handles_labels()
 if len(labels) > 0:
     sorted_labels_handles = sorted(zip(labels, handles), key=lambda x: average_percentages[x[0]], reverse=True)
     sorted_labels, sorted_handles = zip(*sorted_labels_handles)
-    plt.legend(sorted_handles, sorted_labels, title="Decks",
-               bbox_to_anchor=(1.02, 1), loc="upper left", prop={"size": 7})
+    plt.legend(
+        sorted_handles,  # plot lines (handles) to include in the legend
+        sorted_labels,  # the labels corresponding to the handles
+        title="Decks",  # title of the legend, this will draw: "Decks: Blue-Eyes, Tenpai Dragon, ..."
+        bbox_to_anchor=(1.02, 1),  # position the legend to the plot
+        loc="upper left",  # anchor the legend in the upper-left corner of the bounding box
+        prop={"size": 7}  # Set the font size of the legend text to 7
+    )
 
 # Save the plot as a PNG file
 if isLogScale:
-    plt.savefig("decks_2024_log_scale.png", format="png", dpi=200)
+    plt.savefig("decks_log_scale.png", format="png", dpi=200)
 else:
-    plt.savefig("decks_2024.png", format="png", dpi=200)
+    plt.savefig("decks.png", format="png", dpi=200)
 
 plt.show()

@@ -128,10 +128,16 @@ func (d Deck) Archetype() Archetype {
 		if d.CheckContainsCard("Lair of Darkness") {
 			return LairOfDarkness
 		} else if d.CheckContainsCard("The Bystial Lubellion", 3) &&
-			!d.CheckContainsCard("Centur-Ion Trudea", 3) {
+			!d.CheckContainsCard("Centur-Ion Trudea", 2) {
+			// some play Fiendsmith to make a Synchro Lv8, they do not play 3x Trudea
 			return Bystial
 		}
 		return Centurion
+	case "Flame Swordsman":
+		if d.CheckContainsCard("Emperor Charles the Great") {
+			return InfernobleKnight
+		}
+		return archetype
 	case Rank8Go2nd:
 		if d.CheckContainsCard("Qebehsenuef, Protection of Horus") {
 			return Horus

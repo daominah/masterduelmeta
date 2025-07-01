@@ -201,7 +201,7 @@ cython_debug/
 # end of Golang and Python generic .gitignore file,
 # below are the project specific .gitignore file
 
-cmd/s3_analyze_2024/.~lock.*
+cmd/s3_analyze_to_visualize/.~lock.*
 test_output.csv
 .idea/
 visualization/decks_2024.png

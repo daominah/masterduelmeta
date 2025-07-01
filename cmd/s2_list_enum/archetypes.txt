@@ -1,274 +1,297 @@
-                               Snake-Eye: 700
-                                Labrynth: 487
-                                Mathmech: 475
-                             Tearlaments: 438
-                           Tenpai Dragon: 360
-                                 Branded: 359
-                                   Yubel: 353
-                               Fire King: 319
-                                Kashtira: 269
-                          Barrier Statue: 268
-                         Voiceless Voice: 264
-                              Rescue-ACE: 245
-                           Vanquish Soul: 219
-                             Dinomorphia: 212
-                                 Purrely: 204
-                               Mannadium: 196
-                              Centur-Ion: 189
-                       Infernoble Knight: 188
-                      Superheavy Samurai: 165
-                    Red Dragon Archfiend: 156
-                               Swordsoul: 152
-                                 Spright: 149
-                                 Chimera: 138
-                          Floowandereeze: 137
-                                   Rikka: 131
-                                 Mikanko: 128
-                             Sky Striker: 127
-                             Dragon Link: 118
-                               Unchained: 106
-                                    HERO: 105
-                            Salamangreat: 102
-                                Traptrix: 101
-                                  Runick: 99
-                                Dinosaur: 99
-                               Live☆Twin: 95
-                                 Naturia: 90
-                       Pendulum Magician: 86
-                                Endymion: 78
-                         Phantom Knights: 77
-                               Exosister: 77
-                               Synchrons: 74
-                                   Ninja: 71
-                               Scareclaw: 71
-                           Ritual Beasts: 70
-                               Paleozoic: 67
-                                Evil Eye: 63
-                                   Horus: 62
-                          Thunder Dragon: 59
-                            Ancient Gear: 58
-                            White Forest: 57
-                                Vaylantz: 54
-                           Galaxy Photon: 53
-                              Vaalmonica: 53
-                             Ice Barrier: 53
-                                  Orcust: 52
-                              Raidraptor: 47
-                               Marincess: 46
-                                  SPYRAL: 45
-                                 Zoodiac: 41
-                                 Eldlich: 38
-                          Gimmick Puppet: 38
-                               Melodious: 36
-                                Madolche: 35
-                               Infernoid: 35
-                                P.U.N.K.: 34
-                        Stardust Bystial: 33
-                              Gold Pride: 33
-                                   D/D/D: 32
-                                 Memento: 32
-                         Plunder Patroll: 31
-                               Lunalight: 29
-                              Prank-Kids: 28
-                            Tellarknight: 27
-                                Fur Hire: 27
-                           Dark Magician: 27
-                                Volcanic: 27
-                             Dracoslayer: 26
-                               Dogmatika: 26
-                                 Drytron: 26
-                                Nemleria: 26
-                                    Burn: 25
-                              Blackwings: 25
-                                   Ghoti: 24
-                              Chain Burn: 23
-                              Tech Genus: 23
-                                Ogdoadic: 23
-                                Lyrilusc: 23
-                           Crystal Beast: 22
-                                Odd-Eyes: 22
-                              Lightsworn: 22
-                              True Draco: 21
-                       Danger Dark World: 20
-                                 Machina: 19
-                              Generaider: 19
-                                  Melffy: 17
-                             Neo-Spacian: 17
-                               Speedroid: 16
-                               Mayakashi: 16
-                               Infernity: 16
-                            Cyber Dragon: 16
-                               Blue-Eyes: 16
-                                  Agents: 15
-                             Gravekeeper: 15
-                                  Gishki: 15
-                           Rank 8 go 2nd: 15
-                               Dragunity: 15
-                           Buster Blader: 14
-                                 Bystial: 14
-                              Altergeist: 14
-                                 Therion: 13
-                            Goblin Biker: 13
-                           Virtual World: 13
-                                  Exodia: 13
-                    Mekk-Knight Crusadia: 12
-                               Springans: 11
-                     Shining Sarcophagus: 11
-                                 Numeron: 11
-                            Mekk-Knights: 10
-                              Earthbound: 10
-                             Tri-Brigade: 10
-                                     Umi: 10
-                             Majespecter: 10
-                        Lair of Darkness: 9
-                          Magical Musket: 9
-                               Amazement: 9
-                                 Charmer: 8
-                               Nouvelles: 8
-                        Ancient Warriors: 8
-                                 Fluffal: 8
-                                   Genex: 8
-                             Gem-Knights: 8
-                              Solfachord: 8
-                                  Nordic: 8
-                   Scareclaw Tri-Brigade: 8
-                              Dragonmaid: 8
-                               Subterror: 7
-                       Invoked Dogmatika: 7
-                     Live☆Twin Unchained: 7
-                                   Aroma: 7
-                             Performapal: 7
-                            Egyptian God: 6
-                                   Stall: 6
-                           Adamancipator: 6
-                              Time Thief: 6
-                                  Invoke: 6
-                                 Malefic: 6
-                              Predaplant: 6
-                            Armed Dragon: 6
-                  Supreme King Melodious: 5
-                                     ABC: 5
-                               PSY-Frame: 5
-                                 Tistina: 5
-                                 Magikey: 5
-                                    Toon: 5
-                           Skull Servant: 4
-                                 Zombies: 4
-                       Mermail Atlantean: 4
-                             Libromancer: 4
-                                    Evol: 4
-                            Dragon Ruler: 4
-                           Gunkan Suship: 4
-                            Witchcrafter: 4
-                                   Shark: 4
-                                   Chaos: 4
-                               Ursarctic: 4
-                                Darklord: 4
-                                 Icejade: 4
-                               Trickstar: 4
-                            Fortune Lady: 3
-                          Alien Ogdoadic: 3
-                         Weather Painter: 3
-                            Dream Mirror: 3
-                                    Watt: 3
-                           Gate Guardian: 3
-                     True Draco Monarchs: 3
-                                Red-Eyes: 3
-                            Noble Knight: 3
-                             Abyss Actor: 3
-                               Chaos MAX: 3
-                                   Zefra: 3
-                                Monarchs: 3
-                                Shaddoll: 2
-                                  Plants: 2
-                  Invoked Thunder Dragon: 2
-                   Lunalight Tri-Brigade: 2
-                         Flame Swordsman: 2
-               Buster Blader Dragon Link: 2
-                     Live☆Twin Dogmatika: 2
-                               Evilswarm: 2
-                        Formula Athletes: 2
-             Gladiator Beast Tri-Brigade: 2
-                                 Yosenju: 2
-                              Vernusylph: 2
-                                 Railway: 2
-                          Battlin' Boxer: 2
-                             Dual Avatar: 2
-                                  Nekroz: 2
-                               Spellbook: 2
-                            Sacred Beast: 2
-                           Cyberse Combo: 2
-                                  Utopia: 2
-                               Shinobird: 2
-                    Lunalight Raidraptor: 2
-                                 Myutant: 2
-                               Atlantean: 2
-                           World Chalice: 2
-                              Appliancer: 2
-                                   Gouki: 2
-                             Beetroopers: 2
-                                Igknight: 2
-                                 Penguin: 2
-                                   Cubic: 2
-            Phantom Knight Burning Abyss: 2
-                                 S-Force: 2
-                                    Gaia: 2
-                                  Fabled: 1
-                                   Ojama: 1
-                               Fire Fist: 1
-                      Harpie Tri-Brigade: 1
-                           Burning Abyss: 1
-                                  3-Axis: 1
-                  Advanced Crystal Beast: 1
-                               Tindangle: 1
-                    Dragunity Dragonmaid: 1
-                                   Scrap: 1
-                                   Alien: 1
-                        Lunalight Orcust: 1
-                                  Heroic: 1
-                                 Kuriboh: 1
-                       Symphonic Warrior: 1
-                       Generaider Musket: 1
-                                 Graydle: 1
-                         Zoodiac Eldlich: 1
-                      Melffy Tri-Brigade: 1
-                                  Rokket: 1
-                          Magnet Warrior: 1
-                                    Roid: 1
-                                 Spirits: 1
-                      Evil Eye Unchained: 1
-                               Amazoness: 1
-                             Super Quant: 1
-                                   Kozmo: 1
-                      Branded Predaplant: 1
-                             Aquaactress: 1
-                                Artifact: 1
-                               Windwitch: 1
-                               Gren Maju: 1
-                             Morphtronic: 1
-                           Destiny Board: 1
-                                Magistus: 1
-                                    Star: 1
-                                  Insect: 1
-                                Crusadia: 1
-                           Telefon Combo: 1
-           Subterror Amazement Dogmatika: 1
-                               Adventure: 1
-                               Cyberdark: 1
-                              Batteryman: 1
-                            Dinowrestler: 1
-                         Nekroz Megalith: 1
-                          Heraldic Beast: 1
-                               Amorphage: 1
-                           Trap Monsters: 1
-                                Megalith: 1
-                        Invoked P.U.N.K.: 1
-                              Hazy Flame: 1
-                        Swordsoul Despia: 1
-                             Grass Chaos: 1
-                                 Meklord: 1
-                              Chronomaly: 1
-                            Koa'ki Meiru: 1
-                         Auroradon Combo: 1
-                                 Triamid: 1
-               Invoked Dogmatika Eldlich: 1
+                               Snake-Eye:  1119 (6.08%)
+                           Tenpai Dragon:   836 (4.55%)
+                                Labrynth:   670 (3.64%)
+                               Blue-Eyes:   602 (3.27%)
+                                 Branded:   600 (3.26%)
+                                Mathmech:   598 (3.25%)
+                             Tearlaments:   578 (3.14%)
+                                   Yubel:   543 (2.95%)
+                         Voiceless Voice:   467 (2.54%)
+                               Fire King:   433 (2.35%)
+                            White Forest:   404 (2.20%)
+                              Centur-Ion:   403 (2.19%)
+                                Kashtira:   402 (2.19%)
+                          Barrier Statue:   365 (1.98%)
+                              Fiendsmith:   300 (1.63%)
+                              Rescue-ACE:   297 (1.61%)
+                             Dinomorphia:   281 (1.53%)
+                       Infernoble Knight:   269 (1.46%)
+                           Vanquish Soul:   251 (1.36%)
+                                 Chimera:   250 (1.36%)
+                                 Purrely:   248 (1.35%)
+                    Red Dragon Archfiend:   220 (1.20%)
+                                 Spright:   214 (1.16%)
+                               Mannadium:   205 (1.11%)
+                             Sky Striker:   200 (1.09%)
+                                   Plant:   194 (1.05%)
+                      Superheavy Samurai:   176 (0.96%)
+                                    HERO:   169 (0.92%)
+                               Swordsoul:   166 (0.90%)
+                          Floowandereeze:   163 (0.89%)
+                             Dragon Link:   163 (0.89%)
+                                  Exodia:   160 (0.87%)
+                                Traptrix:   154 (0.84%)
+                               Unchained:   147 (0.80%)
+                                 Memento:   146 (0.79%)
+                            Salamangreat:   146 (0.79%)
+                                 Mikanko:   144 (0.78%)
+                          Gimmick Puppet:   144 (0.78%)
+                            Ritual Beast:   139 (0.76%)
+                                Pendulum:   138 (0.75%)
+                               Live☆Twin:   136 (0.74%)
+                                Crystron:   135 (0.73%)
+                                  Runick:   132 (0.72%)
+                                Dinosaur:   124 (0.67%)
+                                 Naturia:   117 (0.64%)
+                          Thunder Dragon:   115 (0.63%)
+                                P.U.N.K.:   113 (0.61%)
+                                   Ninja:   106 (0.58%)
+                               Scareclaw:   104 (0.57%)
+                               Melodious:   103 (0.56%)
+                                Endymion:   102 (0.55%)
+                         Phantom Knights:   100 (0.54%)
+                            Ancient Gear:   100 (0.54%)
+                       Mermail Atlantean:    94 (0.51%)
+                                 Bystial:    93 (0.51%)
+                                  Orcust:    90 (0.49%)
+                               Exosister:    89 (0.48%)
+                              Vaalmonica:    86 (0.47%)
+                                Synchron:    85 (0.46%)
+                               Paleozoic:    83 (0.45%)
+                              Raidraptor:    83 (0.45%)
+                             Ice Barrier:    79 (0.43%)
+                                   Horus:    74 (0.40%)
+                       Magical Musketeer:    73 (0.40%)
+                                Evil Eye:    73 (0.40%)
+                                Vaylantz:    72 (0.39%)
+                               Marincess:    70 (0.38%)
+                                 Tachyon:    70 (0.38%)
+                                 Drytron:    70 (0.38%)
+                           Galaxy Photon:    63 (0.34%)
+                                  SPYRAL:    55 (0.30%)
+                                 Zoodiac:    53 (0.29%)
+                                   D/D/D:    50 (0.27%)
+                                Madolche:    50 (0.27%)
+                               Infernoid:    49 (0.27%)
+                           Dark Magician:    49 (0.27%)
+                                 Eldlich:    44 (0.24%)
+                             Dracoslayer:    43 (0.23%)
+                              True Draco:    42 (0.23%)
+                               Lunalight:    42 (0.23%)
+                               Mimighoul:    42 (0.23%)
+                                   Shark:    39 (0.21%)
+                         Plunder Patroll:    39 (0.21%)
+                            Goblin Biker:    38 (0.21%)
+                               Dogmatika:    38 (0.21%)
+                           Crystal Beast:    37 (0.20%)
+                                Volcanic:    37 (0.20%)
+                              Lightsworn:    37 (0.20%)
+                              Gold Pride:    36 (0.20%)
+                                Fur Hire:    36 (0.20%)
+                                   Ghoti:    36 (0.20%)
+                            Tellarknight:    33 (0.18%)
+                                  Ryu-Ge:    33 (0.18%)
+                                     ABC:    32 (0.17%)
+                              Prank-Kids:    32 (0.17%)
+                                Ogdoadic:    31 (0.17%)
+                                Nemleria:    30 (0.16%)
+                              Blackwings:    30 (0.16%)
+                                Odd-Eyes:    30 (0.16%)
+                              Dark World:    28 (0.15%)
+                              Tech Genus:    27 (0.15%)
+                                    Burn:    27 (0.15%)
+                              Generaider:    26 (0.14%)
+                                Lyrilusc:    26 (0.14%)
+                           Adamancipator:    25 (0.14%)
+                                  Melffy:    24 (0.13%)
+                                 Machina:    24 (0.13%)
+                              Chain Burn:    23 (0.13%)
+                               Mayakashi:    23 (0.13%)
+                               Infernity:    23 (0.13%)
+                           Rank 8 go 2nd:    22 (0.12%)
+                                 Therion:    21 (0.11%)
+                           Buster Blader:    20 (0.11%)
+                                  Gishki:    19 (0.10%)
+                                Red-Eyes:    19 (0.10%)
+                                     Umi:    19 (0.10%)
+                              Altergeist:    19 (0.10%)
+                            Cyber Dragon:    18 (0.10%)
+                               Dragunity:    17 (0.09%)
+                             Gravekeeper:    17 (0.09%)
+                                  Agents:    17 (0.09%)
+                             Neo-Spacian:    17 (0.09%)
+                     Shining Sarcophagus:    17 (0.09%)
+                               Speedroid:    16 (0.09%)
+                              Earthbound:    16 (0.09%)
+                               Argostars:    15 (0.08%)
+                           Virtual World:    15 (0.08%)
+                        Lair of Darkness:    15 (0.08%)
+                             Tri-Brigade:    14 (0.08%)
+                                 Numeron:    14 (0.08%)
+                               Trickstar:    13 (0.07%)
+                               Amazement:    13 (0.07%)
+                    Mekk-Knight Crusadia:    13 (0.07%)
+                             Materiactor:    13 (0.07%)
+                            Egyptian God:    13 (0.07%)
+                            Mekk-Knights:    13 (0.07%)
+                             Performapal:    12 (0.07%)
+                               Springans:    12 (0.07%)
+                                 Charmer:    12 (0.07%)
+                                  Nordic:    11 (0.06%)
+                              Time Thief:    11 (0.06%)
+                                 Malefic:    11 (0.06%)
+                                   Cubic:    11 (0.06%)
+                         Phantasm Spiral:    11 (0.06%)
+                        Ancient Warriors:    11 (0.06%)
+                             Majespecter:    10 (0.05%)
+                                 Zombies:    10 (0.05%)
+                                  Invoke:    10 (0.05%)
+                              Dragonmaid:    10 (0.05%)
+                               Nouvelles:    10 (0.05%)
+                                   Stall:    10 (0.05%)
+                         Weather Painter:    10 (0.05%)
+                                 Dragoon:    10 (0.05%)
+                              Metalmorph:     9 (0.05%)
+                             Gem-Knights:     9 (0.05%)
+                                   Zefra:     9 (0.05%)
+                                 Harpies:     9 (0.05%)
+                                 Fluffal:     8 (0.04%)
+                               Subterror:     8 (0.04%)
+                                   Genex:     8 (0.04%)
+                             Libromancer:     8 (0.04%)
+                   Scareclaw Tri-Brigade:     8 (0.04%)
+                              Solfachord:     8 (0.04%)
+                               PSY-Frame:     8 (0.04%)
+                                 Ashened:     7 (0.04%)
+                                 Tistina:     7 (0.04%)
+                                  Utopia:     7 (0.04%)
+                            Allure Queen:     7 (0.04%)
+                              Predaplant:     7 (0.04%)
+                                 Magikey:     6 (0.03%)
+                            Armed Dragon:     6 (0.03%)
+                           World Chalice:     6 (0.03%)
+                           Skull Servant:     6 (0.03%)
+                            Dream Mirror:     5 (0.03%)
+                                    Toon:     5 (0.03%)
+                         Flame Swordsman:     5 (0.03%)
+                                Darklord:     5 (0.03%)
+                                 Icejade:     5 (0.03%)
+                               Ursarctic:     5 (0.03%)
+                            World Legacy:     5 (0.03%)
+                            Dragon Ruler:     5 (0.03%)
+                            Arcana Force:     5 (0.03%)
+                           Gunkan Suship:     5 (0.03%)
+                           Gate Guardian:     4 (0.02%)
+                                    Evol:     4 (0.02%)
+                                 Penguin:     4 (0.02%)
+                            Witchcrafter:     4 (0.02%)
+                                Crusadia:     4 (0.02%)
+                                 Myutant:     4 (0.02%)
+                             Abyss Actor:     4 (0.02%)
+                                Monarchs:     4 (0.02%)
+                               Shinobird:     4 (0.02%)
+                            Noble Knight:     4 (0.02%)
+                               Evilswarm:     4 (0.02%)
+                          Alien Ogdoadic:     4 (0.02%)
+                                  Nekroz:     4 (0.02%)
+                                   Chaos:     4 (0.02%)
+                            Sacred Beast:     3 (0.02%)
+                        Gladiator Beasts:     3 (0.02%)
+                                    Gaia:     3 (0.02%)
+                                Shaddoll:     3 (0.02%)
+                    Lunalight Raidraptor:     3 (0.02%)
+                            Fortune Lady:     3 (0.02%)
+                                    Watt:     3 (0.02%)
+                               Chaos MAX:     3 (0.02%)
+                                Igknight:     3 (0.02%)
+                     True Draco Monarchs:     3 (0.02%)
+                          Battlin' Boxer:     3 (0.02%)
+                   Lunalight Tri-Brigade:     3 (0.02%)
+                              Chronomaly:     3 (0.02%)
+                              Vernusylph:     3 (0.02%)
+                      Light and Darkness:     3 (0.02%)
+                           Cyberse Combo:     3 (0.02%)
+                             Dual Avatar:     3 (0.02%)
+                                 Railway:     2 (0.01%)
+                                Shiranui:     2 (0.01%)
+                                  3-Axis:     2 (0.01%)
+                               Adventure:     2 (0.01%)
+                     Live☆Twin Dogmatika:     2 (0.01%)
+            Phantom Knight Burning Abyss:     2 (0.01%)
+                               Fire Fist:     2 (0.01%)
+                               Windwitch:     2 (0.01%)
+                      Melffy Tri-Brigade:     2 (0.01%)
+                           /Assault Mode:     2 (0.01%)
+                         Auroradon Combo:     2 (0.01%)
+                  Invoked Thunder Dragon:     2 (0.01%)
+                                 Yosenju:     2 (0.01%)
+                            Doll Monster:     2 (0.01%)
+                             Super Quant:     2 (0.01%)
+                                   Kozmo:     2 (0.01%)
+                       Symphonic Warrior:     2 (0.01%)
+                                   Alien:     2 (0.01%)
+                           Trap Monsters:     2 (0.01%)
+                                   Gouki:     2 (0.01%)
+                          Magnet Warrior:     2 (0.01%)
+                               Atlantean:     2 (0.01%)
+                               Spellbook:     2 (0.01%)
+                                  Insect:     2 (0.01%)
+                             Clear World:     2 (0.01%)
+             Gladiator Beast Tri-Brigade:     2 (0.01%)
+                             Beetroopers:     2 (0.01%)
+                                  Fabled:     2 (0.01%)
+                              Performage:     2 (0.01%)
+                        Formula Athletes:     2 (0.01%)
+                              Appliancer:     2 (0.01%)
+                                Megalith:     2 (0.01%)
+                                 Spirits:     2 (0.01%)
+                                 S-Force:     2 (0.01%)
+                           Destiny Board:     2 (0.01%)
+                            Dinowrestler:     2 (0.01%)
+                              Batteryman:     1 (0.01%)
+                                Magistus:     1 (0.01%)
+                      Evil Eye Unchained:     1 (0.01%)
+                               Metalfoes:     1 (0.01%)
+                          Aero Shark FTK:     1 (0.01%)
+                                    Roid:     1 (0.01%)
+                  Advanced Crystal Beast:     1 (0.01%)
+                                   Scrap:     1 (0.01%)
+                             Morphtronic:     1 (0.01%)
+                        Invoked P.U.N.K.:     1 (0.01%)
+                               Cyberdark:     1 (0.01%)
+                             Aquaactress:     1 (0.01%)
+                                    Star:     1 (0.01%)
+                           Burning Abyss:     1 (0.01%)
+                                  Herald:     1 (0.01%)
+                                  Rokket:     1 (0.01%)
+                           Telefon Combo:     1 (0.01%)
+                           Poker Knights:     1 (0.01%)
+                                 Kuriboh:     1 (0.01%)
+                        Lunalight Orcust:     1 (0.01%)
+                                   Ojama:     1 (0.01%)
+                                 Graydle:     1 (0.01%)
+                               Amazoness:     1 (0.01%)
+                         Counter Fairies:     1 (0.01%)
+                    Generaider Subterror:     1 (0.01%)
+                              Hazy Flame:     1 (0.01%)
+                         Nekroz Megalith:     1 (0.01%)
+                       Generaider Musket:     1 (0.01%)
+                               Gren Maju:     1 (0.01%)
+                                  Heroic:     1 (0.01%)
+                                Artifact:     1 (0.01%)
+                               Necrofear:     1 (0.01%)
+                               Amorphage:     1 (0.01%)
+                          Heraldic Beast:     1 (0.01%)
+                       Mayakashi Eldlich:     1 (0.01%)
+               Invoked Dogmatika Eldlich:     1 (0.01%)
+           Subterror Amazement Dogmatika:     1 (0.01%)
+                    Dragunity Dragonmaid:     1 (0.01%)
+                         Zoodiac Eldlich:     1 (0.01%)
+                                 Meklord:     1 (0.01%)
+                  Myutant Thunder Dragon:     1 (0.01%)
+                             Grass Chaos:     1 (0.01%)
+                               Stromberg:     1 (0.01%)
+                            Koa'ki Meiru:     1 (0.01%)
+                               Tindangle:     1 (0.01%)
+                      Harpie Tri-Brigade:     1 (0.01%)
+                                 Triamid:     1 (0.01%)
