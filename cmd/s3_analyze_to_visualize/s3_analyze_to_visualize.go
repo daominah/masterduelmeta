@@ -23,8 +23,10 @@ func main() {
 		log.Fatalf("error os.Stat dataDir: %v", err)
 	}
 
-	beginMonth := "2024-12"
-	endMonth := "2025-06"
+	// Configure the date range for the CSV and chart output here:
+	beginMonth := "2025-01"
+	endMonth := "2026-03"
+	// End of configuration. You can run this script now.
 
 	startTime, err := time.Parse("2006-01", beginMonth)
 	if err != nil {

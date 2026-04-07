@@ -21,7 +21,7 @@ for deck, path in archetype_icon_paths.items():
     # print(f"loaded icon deck: {deck}, path: {icon_file_path}")
 
 # Read the CSV file
-data_all: pd.DataFrame = pd.read_csv("time_series_2024-12_to_2025-06.csv")
+data_all: pd.DataFrame = pd.read_csv("time_series_2025-01_to_2026-03.csv")
 
 # Convert the Month column to datetime format pd.Timestamp
 data_all["Month"] = pd.to_datetime(data_all["Month"], format="%Y-%m")
@@ -171,7 +171,7 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
                           month == last_month or
                           is_last_fav_appear)
         if month == first_month:  # draw less decks in the first month
-            if (list(top_n_decks).index(deck) >= 10
+            if (deck in top_n_decks and list(top_n_decks).index(deck) >= 10
                     and deck_peak_month[deck]["Percent"] < draw_line_threshold
                     and deck not in favorite_decks):
                 shouldShowDeck = False

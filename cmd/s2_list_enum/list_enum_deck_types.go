@@ -1,3 +1,12 @@
+// s2_list_enum reads downloaded data and lists all deck type names seen in the data.
+// The output archetypes.txt is used to update NormalizeDeckTypeName in archetype.go:
+// raw data can label a deck with multiple archetypes (e.g. "Snake-Eye Fire King"),
+// but this codebase resolves each deck to one main archetype.
+//
+// The output already applies the archetype.go normalization logic,
+// so known mixed names are collapsed.
+// If a new mixed name appears as-is in archetypes.txt,
+// it hit the default case and needs a new case added to NormalizeDeckTypeName.
 package main
 
 import (
@@ -23,16 +32,16 @@ func main() {
 	}
 
 	var allDecks []ygo.Deck
-	for year := 2024; year <= 2025; year++ {
+	// Tweak time range here, e.g. if you only want to analyze recent months.
+	// Or leave as is for all time.
+	// Note: the month limit applies to all years, not just the last one.
+	for year := 2022; year <= 2026; year++ {
 		for month := 1; month <= 12; month++ {
 			monthStr := fmt.Sprintf("%v-%02v", year, month)
 			dataPath := filepath.Join(dataDir, fmt.Sprintf("decks_%v.json", monthStr))
 			data, err := os.ReadFile(dataPath)
 			if err != nil {
 				log.Printf("error os.ReadFile: %v", err)
-				if year >= 2025 {
-					break
-				}
 				continue
 			}
 			decks, err := ygo.ParseDecks(data)

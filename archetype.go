@@ -38,6 +38,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Centur-Ion", "Centurion", "Stardust Bystial":
 		return "Centur-Ion"
 
+	case "Crystron", "Crystron K9":
+		return "Crystron"
+
 	case "Danger Dark World", "Dark World":
 		return "Dark World"
 
@@ -49,6 +52,9 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 
 	case "Dragon Link", "Buster Blader Dragon Link":
 		return "Dragon Link"
+
+	case "Dragonmaid", "Dragonmaid Dracotail":
+		return "Dragonmaid"
 
 	case "Eldlich", "Zombie World Eldlich":
 		return "Eldlich"
@@ -89,7 +95,16 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "@Ignister", "Code Talker", "Mathmech":
 		return "Mathmech"
 
-	case "Phantom Knight Orcust":
+	case "Mimighoul", "Yummy Mimighoul":
+		return "Mimighoul"
+
+	case "Mitsurugi", "Mitsurugi FTK", "Ryzeal Mitsurugi":
+		return "Mitsurugi"
+
+	case "Onomat Ryzeal":
+		return "Onomat"
+
+	case "Orcust", "Phantom Knight Orcust", "Mitsurugi Orcust":
 		return "Orcust"
 
 	case "Pendulum Magician", "Supreme King", "Supreme King Melodious":
@@ -122,7 +137,10 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Bystial Runick":
 		return "Runick"
 
-	case "Snake-Eye", "Snake-Eye Fiendsmith":
+	case "Ryzeal", "Heraldic Beast Ryzeal":
+		return "Ryzeal"
+
+	case "Snake-Eye", "Snake-Eye Fiendsmith", "Snake-Eye Yummy":
 		return "Snake-Eye"
 
 	case "Spright", "Runick Spright", "Tri-Brigade Spright":
@@ -152,11 +170,17 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Unchained", "Live☆Twin Unchained":
 		return "Unchained"
 
+	case "Vanquish Soul", "Vanquish Soul K9":
+		return "Vanquish Soul"
+
 	case "White Forest", "White Forest Azamina", "Azamina":
 		return "White Forest"
 
 	case "Yubel", "Yubel Fiendsmith":
 		return "Yubel"
+
+	case "Yummy", "Mitsurugi Yummy", "Solfachord Yummy":
+		return "Yummy"
 
 	default:
 		return Archetype(deckTypeName)

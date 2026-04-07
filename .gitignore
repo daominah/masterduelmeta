@@ -204,5 +204,6 @@ cython_debug/
 cmd/s3_analyze_to_visualize/.~lock.*
 test_output.csv
 .idea/
+.claude/settings.local.json
 visualization/decks_2024.png
 visualization/decks_2024_log_scale.png
