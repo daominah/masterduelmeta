@@ -41,6 +41,4 @@ Run [visualization/main.py](visualization/main.py)
 
 ## Chart for 2024
 
-![decks_2024.png](decks_2024.png)
-
 ![decks_2024_log_scale.png](decks_2024_log_scale.png)
