@@ -101,8 +101,8 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Mitsurugi", "Mitsurugi FTK", "Ryzeal Mitsurugi":
 		return "Mitsurugi"
 
-	case "Onomat Ryzeal":
-		return "Onomat"
+	case "Monarch", "Monarchs":
+		return "Monarch"
 
 	case "Orcust", "Phantom Knight Orcust", "Mitsurugi Orcust":
 		return "Orcust"
@@ -137,7 +137,7 @@ func NormalizeDeckTypeName(deckTypeName string) Archetype {
 	case "Bystial Runick":
 		return "Runick"
 
-	case "Ryzeal", "Heraldic Beast Ryzeal":
+	case "Ryzeal", "Heraldic Beast Ryzeal", "Onomat Ryzeal":
 		return "Ryzeal"
 
 	case "Snake-Eye", "Snake-Eye Fiendsmith", "Snake-Eye Yummy":

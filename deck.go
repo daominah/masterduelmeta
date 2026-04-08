@@ -119,7 +119,7 @@ func (d Deck) CheckContainsCard(cardName string, minAmount ...int) bool {
 func (d Deck) Archetype() Archetype {
 	archetype := NormalizeDeckTypeName(d.DeckType.Name)
 	switch archetype {
-	case Branded, DarkMagician:
+	case Branded:
 		if d.CheckContainsCard("Red-Eyes Dark Dragoon", 2) {
 			return Dragoon
 		}
