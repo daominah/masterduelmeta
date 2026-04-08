@@ -21,7 +21,7 @@ for deck, path in archetype_icon_paths.items():
     # print(f"loaded icon deck: {deck}, path: {icon_file_path}")
 
 # Read the CSV file (created by cmd/s3_analyze_to_visualize)
-data_all: pd.DataFrame = pd.read_csv("time_series_2025-04_to_2026-03.csv")
+data_all: pd.DataFrame = pd.read_csv("time_series_2022-01_to_2026-03.csv")
 
 # Convert the Month column to datetime format pd.Timestamp
 data_all["Month"] = pd.to_datetime(data_all["Month"], format="%Y-%m")
@@ -31,7 +31,7 @@ isLogScale = True  # isLogScale determines whether the y-axis is logarithmic or 
 top_cut_percent: float = 0.99  # filter out rows that have less than 1% representation
 # draw_line_threshold: only draw a line for a deck if its peak is greater than this
 # (100% meaning no lines)
-draw_line_threshold = 100.00
+draw_line_threshold = 15.00
 favorite_decks = [
     # favorite decks, always draw lines for them;
     # "Bystial" is vaguely classified on MasterDuelMeta, so not included
@@ -55,13 +55,17 @@ zero = 0.0  # if log scale, zero needs to be a small positive number to avoid lo
 # Log scale compresses the top end and stretches the bottom end.
 # It is now the default for better visual distinction.
 if isLogScale:
-    top_cut_percent = np.log(top_cut_percent)      # convert to log space to match transformed Percent
+    top_cut_percent = np.log(top_cut_percent)  # convert to log space to match transformed Percent
     draw_line_threshold = np.log(draw_line_threshold)  # same
     check_overlap_threshold = 0.12
     icon_pos_adj_y = 0.02
     icon_pos_adj_x = pd.Timedelta(days=6)
     icon_pos_adj_x2 = pd.Timedelta(days=5)
     zero = 1e-4
+
+n_months = data_all["Month"].nunique()
+chart_figsize_wh = (22, 11) if n_months <= 18 else (60, 11)
+dpi = 160  # dpi combined with figsize determines deck icon size relative to the whole canvas
 
 # Ensure all decks have entries for all months so lines are continuous (no gaps).
 # unstack pivots Deck into columns (filling gaps with zero), stack folds them back into rows.
@@ -81,7 +85,7 @@ data_by_month_sorted: Dict[pd.Timestamp, pd.DataFrame] = {
     month: df.sort_values(by="Percent", ascending=False) for month, df in dfs_by_month.items()}
 
 # Create a new figure (graph) with size in inches
-plt.figure(figsize=(18, 12))
+plt.figure(figsize=chart_figsize_wh)
 # Adjust the subplot parameters to move the plot to the left and use full vertical space
 plt.subplots_adjust(left=0.04, right=0.90, top=0.96, bottom=0.05)
 
@@ -95,11 +99,6 @@ if isLogScale:
     data_all = data_all[data_all["Percent"] >= np.log(zero)]
 else:
     data_all = data_all[data_all["Percent"] != 0]
-
-# seen_labels helps to avoid duplicate labels in the legend
-seen_labels = set()
-# previous_positions helps to adjust when icons are overlapping
-previous_positions: Dict[pd.Timestamp, List[Tuple[pd.Timestamp, float]]] = {}
 
 # colormap helps to make close values have contrasting colors;
 # sized by average_percentages so each deck gets a consistent color across months
@@ -121,9 +120,19 @@ for deck in data_all["Deck"].unique():
 # with an exception for the last month to draw more decks
 top_cut_n = 20
 
+# previous_positions helps to adjust when icons are overlapping
+previous_positions: Dict[pd.Timestamp, List[Tuple[pd.Timestamp, float]]] = {}
 missing_icon_decks = set()
 shown_previous_month: set = set()
-# Plot each deck over the months
+
+# adjusted icon x per (deck, data_month); months without overlap stay at the true month
+icon_adjusted_x: Dict[Tuple[str, pd.Timestamp], pd.Timestamp] = {}
+# (deck, data_month, adj_x, adj_y) in draw order, so later entries render on top
+icon_draw_order: List[Tuple[str, pd.Timestamp, pd.Timestamp, float]] = []
+text_draw_order: List[Tuple[str, pd.Timestamp, float]] = []  # (deck, data_month, percent)
+decks_ever_in_draw: set = set()  # decks that appeared in any month's decks_to_draw
+
+# Pass 1: compute all adjusted icon positions without drawing anything
 for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
     top_n_decks = df.head(top_cut_n)["Deck"].unique()
     if month == last_month:
@@ -167,21 +176,7 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
     shown_this_month: set = set()  # decks with shouldShowOrganically, used to populate shown_previous_month
     for deck in decks_to_draw:
         deck_data = data_all[data_all["Deck"] == deck]  # rows for a specific deck across months
-        # Draw lines connecting the points for notable decks
-        if (deck_peak_month[deck]["Percent"] >= draw_line_threshold
-                or deck in favorite_decks):
-            color = colormap(average_percentages.index.get_loc(deck) / len(average_percentages))
-            line_width = 0.8
-            if deck not in seen_labels:
-                line, = plt.plot(deck_data["Month"], deck_data["Percent"], label=deck, color=color, linewidth=line_width)
-                seen_labels.add(deck)
-            else:
-                line, = plt.plot(deck_data["Month"], deck_data["Percent"], color=color, linewidth=line_width)
-
-            # Add dots for intermediate points
-            for i in range(1, len(deck_data) - 1):
-                row = deck_data.iloc[i]
-                plt.plot(row["Month"], row["Percent"], "o", color=line.get_color(), markersize=4)
+        decks_ever_in_draw.add(deck)
 
         is_last_fav_appear = deck in favorite_decks and month == deck_data["Month"].max()
         current_percent = deck_data[deck_data["Month"] == month]["Percent"].values[0]
@@ -212,24 +207,52 @@ for idx, (month, df) in enumerate(sorted(data_by_month_sorted.items())):
                         if month == last_month or month == first_month:
                             adjusted_x_axis = position[0] + icon_pos_adj_x2  # smaller shift at chart edges to avoid overflow
                         position = (adjusted_x_axis, position[1])
-
-                imagebox = OffsetImage(deck_icons[deck], zoom=0.25)
-                drawPos = date2num(position[0]), position[1]
-                ab = AnnotationBbox(imagebox, drawPos, frameon=True, bboxprops=dict(
-                    edgecolor='black', linewidth=0.8, boxstyle='round,pad=0'))
-                plt.gca().add_artist(ab)
+                icon_adjusted_x[(deck, month)] = position[0]
+                icon_draw_order.append((deck, month, position[0], position[1]))
                 previous_positions[month].append(position)
                 if shouldShowOrganically:
                     shown_this_month.add(deck)
             else:
                 missing_icon_decks.add(deck)
-                plt.text(month, current_percent, deck, fontsize=12)
+                text_draw_order.append((deck, month, current_percent))
 
     shown_previous_month = shown_this_month
 
 print("________________________________")
 for deck in missing_icon_decks:
     print(f"missing icon for deck: {deck}")
+
+# Pass 2a: draw lines with x-endpoints adjusted to match icon centers
+# Lines are drawn before icons so the icon body renders on top of the line endpoint.
+seen_labels = set()
+for deck in decks_ever_in_draw:
+    if deck_peak_month[deck]["Percent"] >= draw_line_threshold or deck in favorite_decks:
+        deck_data = data_all[data_all["Deck"] == deck]
+        adjusted_months = [icon_adjusted_x.get((deck, m), m) for m in deck_data["Month"]]
+        color = colormap((average_percentages.index.get_loc(deck)) / len(average_percentages))
+        line_width = 0.8
+        if deck not in seen_labels:
+            plt.plot(adjusted_months, deck_data["Percent"], label=deck, color=color, linewidth=line_width)
+            seen_labels.add(deck)
+        else:
+            plt.plot(adjusted_months, deck_data["Percent"], color=color, linewidth=line_width)
+        # Add dots for all points except the first
+        for i in range(1, len(deck_data)):
+            row = deck_data.iloc[i]
+            adj_month = icon_adjusted_x.get((deck, row["Month"]), row["Month"])
+            plt.plot(adj_month, row["Percent"], "o", color=color, markersize=4)
+
+# Pass 2b: draw icons on top of line endpoints
+for deck, data_month, adj_x, adj_y in icon_draw_order:
+    imagebox = OffsetImage(deck_icons[deck], zoom=0.25)
+    drawPos = date2num(adj_x), adj_y
+    ab = AnnotationBbox(imagebox, drawPos, frameon=True, bboxprops=dict(
+        edgecolor='black', linewidth=0.8, boxstyle='round,pad=0'))
+    plt.gca().add_artist(ab)
+
+# Pass 2c: draw text labels for decks without icons
+for deck, data_month, percent in text_draw_order:
+    plt.text(data_month, percent, deck, fontsize=12)
 
 # Set the labels and title
 plt.xlabel("")  # "Month" as x-axis
@@ -245,7 +268,7 @@ else:
     plt.gca().yaxis.set_major_formatter(FuncFormatter(lambda y, _: f"{y}%"))
 
 plt.grid(True, linewidth=0.5)
-plt.title("MasterDuelMeta 2025 (Master and DLvMax decks)")
+plt.title(f"MasterDuelMeta {first_month.strftime('%Y-%m')} - {last_month.strftime('%Y-%m')} (Master and DLvMax decks)")
 
 # Ensure the x-axis is sorted by month
 plt.gca().xaxis.set_major_formatter(DateFormatter("%Y-%m"))
@@ -267,15 +290,17 @@ if len(labels) > 0:
         sorted_handles,  # plot lines (handles) to include in the legend
         sorted_labels,  # the labels corresponding to the handles
         title="Decks",  # title of the legend, this will draw: "Decks: Blue-Eyes, Tenpai Dragon, ..."
-        bbox_to_anchor=(1.02, 1),  # position the legend to the plot
+        bbox_to_anchor=(1.01, 1),  # position the legend to the plot
         loc="upper left",  # anchor the legend in the upper-left corner of the bounding box
         prop={"size": 7}  # Set the font size of the legend text to 7
     )
 
 # Save the plot as a PNG file
+date_range = f"{first_month.strftime('%Y-%m')}_{last_month.strftime('%Y-%m')}"
 if isLogScale:
-    plt.savefig("decks_log_scale.png", format="png", dpi=200)
+    plt.savefig(f"decks_log_scale_{date_range}.png", format="png", dpi=dpi)
 else:
-    plt.savefig("decks.png", format="png", dpi=200)
+    plt.savefig(f"decks_{date_range}.png", format="png", dpi=dpi)
 
-plt.show()
+if n_months <= 12:
+    plt.show()

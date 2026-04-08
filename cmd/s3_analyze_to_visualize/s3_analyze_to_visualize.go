@@ -24,7 +24,7 @@ func main() {
 	}
 
 	// Configure the date range for the CSV and chart output here:
-	beginMonth := "2025-04"
+	beginMonth := "2022-01"
 	endMonth := "2026-03"
 	// End of configuration. You can run this script now.
 
